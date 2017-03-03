@@ -1,0 +1,18 @@
+The NoI requires the following information, provided to the best of
+the proposing team’s knowledge at the time of NoI submission:
+
+a proposal title,
+
+the name, email address, and affiliation of the Principal Investigator (PI),
+
+the name(s), email address(es), and affiliation(s) of up to two Co-Principal Investigators (Co-PIs), if any,
+
+the name(s), email address(es), and affiliation(s) for as many of the Co-Investigators as are known at the time of NOI submission,
+
+the name(s), email address(es), and affiliation(s) for as many of the Science Collaborators as are known at the time of NOI submission,
+
+an overview of the anticipated proposal, not to exceed 300 words, describing:
+   the proposed types of JWST observations and science goals,
+   how the proposed project supports the DD ERS goals and principles,
+
+Proposal title, PI, any Co-PIs, and the proposal overview are entered directly into the webform.  A single text file listing Co-Is and Science Collaborators is uploaded per the instructions on the webform page.

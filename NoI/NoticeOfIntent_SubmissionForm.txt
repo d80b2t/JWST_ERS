@@ -1,0 +1,23 @@
+
+Title: 
+Revolutionary Quasar Science with the James Webb Space Telescope
+
+Principal Investigator  
+Nicholas Ross,npross@roe.ac.uk,University of Edinburgh
+
+Co-Principal Investigators  
+David Rosario,david.rosario@durham.ac.uk,Durham University
+
+
+
+Revolutionary Quasar Science with James Webb Space Telescope Observations: Notice of Intent for JWST Director's Discretionary Early Release Science program
+
+Compelling observational evidence of critical physical processes in luminous AGN remains elusive. For example, it is still debatable what the key trigger is for quasar activity in objects that are rapidly building up their black hole (BH) mass during the quasar epoch. 
+
+JWST provides a revolutionary infrared capability, and we will explore BH growth in quasars, including dust-obscured galaxies, during the epoch when most of this growth occurs, using previously unavailable tools. 
+
+We propose a program to understand the nature of luminous obscured systems at z=2-5. Luminous quasars that our team has identified by their extremely red colors, are bright at mid-infrared wavelengths and have very high velocity outflows. What impact do these extreme outflows have on their host galaxy? Do these outflows suffocate star formation? What are the physical properties of dust in these systems? How is central engine dust related to that on galactic/CGM scales? And what physical processes trigger luminous QSO activity at “Cosmic Noon”?
+
+In particular, we will test multiple modes of the MIRI, including imaging, low-resolution slitted and slitless spectroscopy, medium-resolution integral field unit spectroscopy and coronagraphy. Testing the coronagraphs, in both 4QPM and Lyot modes, will be valuable to other fields. Comparing spectrophotometry on the same source using the LRS and MRS will be informative for a whole range of future proposals, will help characterize the zodiacal backgrounds at L2, and help refine the pipeline. 
+
+In the spirit of the ERS program, we are making our whole effort (proposal, ETCs, analyses, fully reduced images, science-enabling products) fully open to the community. Our resources can be found at: https://github.com/d80b2t/JWST_ERS.

@@ -1,5 +1,23 @@
 
 
-SED::
 
-core_ERQ_SED_notLog.dat
+SED::
+    core_ERQ_SED_notLog.dat
+
+Normalize at wavelength::
+    5 mJy at 23 um.
+
+
+
+Background configuration::
+	   Medium
+
+Channel 1, Disperser 1:		Wavelength range: (4.89 - 5.75)   Wavelength of slice:: 5.35um
+Groups	   Integreations		   Total (EXP) TIME		SNR
+100	   1				   4778				67.42	
+50	   2  				   4778				64.21			
+20	   5				   4778				40.68		10 (Nod in Scene strategy uses a 2-Point dither)
+10	   10				   4778				20.04		20 (Nod in Scene strategy uses a 2-Point dither)
+
+
+Channel 1, Disperser 2:		Wavelength range: (4.89 - 5.75)

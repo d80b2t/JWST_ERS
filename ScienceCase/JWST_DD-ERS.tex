@@ -29,7 +29,14 @@
 \documentclass[12pt]{article}
 \usepackage{jwstproposaltemplate}
 
+\usepackage{enumitem}
+%%\usepackage{deluxetable}
+
 \begin{document}
+
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   1. RATIONALE FOR DD ERS Program
 %       (see https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation)
@@ -39,6 +46,9 @@
 % Enter your rationale for selection as a DD ERS program.
 \input{Rationale}
 
+
+
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   2. SCIENTIFIC JUSTIFICATION
@@ -47,7 +57,11 @@
 %
 \justification          % Do not delete this command.
 % Enter your scientific justification here. 
+\input{ScienceJustification}
 
+
+
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   3a. DESCRIPTION OF THE OBSERVATIONS
@@ -56,6 +70,7 @@
 %
 \describeobservations   % Do not delete this command.
 % Enter your description of the observations.
+\input{Description_of_Observations}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -93,6 +108,9 @@
 \duplications           % Do not delete this command.
 % Enter your duplication justifications here, if any.
 
+
+
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   4. DATA PROCESSING AND ANALYSIS PLAN
@@ -101,6 +119,8 @@
 %
 \analysisplan % Do not delete this command.
 % Describe the data processing and analysis plan here.
+\input{DataProcessing_AnalysisPlan}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

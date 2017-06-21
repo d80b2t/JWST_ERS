@@ -11,29 +11,52 @@ This is the CREDIT.md file for the JWST ERS ERQ proposal.
 
 ### Dave Alexander 
 
-### Rachael Alexandroff	 
-### Richard Bielby		
-### Beth Biller	
-### Niel Brandt		
-### Rob Crain		
-### Xiaohui Fan		
-### Fred Hamann		
-### Dale Kocevski	
-### Linhua Jiang		
+### Rachael Alexandroff
+
+### Richard Bielby
+
+### Beth Biller
+
+### Niel Brandt
+
+### Rob Crain
+
+### Xiaohui Fan
+
+### Fred Hamann
+
+### Dale Kocevski
+
+### Linhua Jiang
+
 ### Stephanie LaMassa
-### Chelsea MacLeod	
-### Ian McGreer		
-### Brice Menard			
-### James Mullaney	 	
-### Adam Myers			
-### Jessie Runnoe		
-### Don Schneider		
-### Tom Shanks		 		
-### John Stott				
-### Michael Strauss		
-### Renske Smit		 	
-### Martin Ward				 
-### Gillian Wright			
+
+### Chelsea MacLeod
+
+### Ian McGreer
+
+### Brice Menard
+
+### James Mullaney
+
+### Adam Myers
+
+### Jessie Runnoe
+
+### Don Schneider
+
+### Tom Shanks
+
+### John Stott
+
+### Michael Strauss
+
+### Renske Smit
+
+### Martin Ward
+
+### Gillian Wright
+
 ### Nadia Zakamsaka			
 
 

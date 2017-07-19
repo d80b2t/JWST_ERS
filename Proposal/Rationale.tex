@@ -1,15 +1,26 @@
-With our ERS MIRI observations of bright WISE W4 quasars, we will deliver all the tools necessary to the community in order to optimize Cycle 2 proposals of 5-30$\mu$m milliJansky bright sources. This is {\it a fundamental tool} for the exploitation of a key MIRI instrument mode
+With our ERS MIRI observations of bright WISE W4 quasars, we will deliver all the tools necessary to the community in order to optimize Cycle 2 proposals of 5-30$\mu$m milliJansky bright sources. This is {\it a fundamental tool} for the exploitation of a key MIRI instrument mode.
 
+\noindent
 We will satisfy the Goals and Principles of the DD ERS program by:
 \begin{itemize}
-\item ensure open access to representative datasets in support of the preparation of Cycle 2 proposals, and
-\item engage a broad cross-section of the astronomical community in familiarizing themselves with JWST data and scientific capabilities.
+\item ensuring open access to our datasets in support of the preparation of Cycle 2 proposals, and
+\item engaging a broad cross-section of the astronomical community, in particular the extragalactic community, in familiarizing themselves with JWST data and scientific capabilities.
 \end{itemize}
 
+\noindent
+In particular, we aim to produce several key science products:
+\begin{itemize}
+\item {\tt mrs\_analyzer} A Python module for analyzing MRS data; 
+\item {\tt mrsfringe} A Python module for mitigating MRS fringing issues; 
+\item a suite of science results on quasar feedback and evolution. 
+\end{itemize}
 
-These goals distinguish the DD ERS program from standard GO investigations. In service of these goals, DD ERS proposals are invited from the community.
+\noindent
+{\it Critically, we have alreayd begun working closely with the MIRI team (due to the P.I.'s location at Edinburgh) and will continue to develop tools here for the MIRI Imager and MRS.}\\
+
+
+\noindent
 The DD ERS program is guided by the following key principles:
-
 \begin{itemize}
 \item Projects must be substantive science demonstration programs that utilize key instrument modes to provide representative scientific datasets of broad interest to researchers in major astrophysical sub-disciplines. Note that a meritorious DD ERS project need not cover every mode of the observatory. The request should match the focused science goals of the proposal.
 
@@ -20,6 +31,7 @@ The DD ERS program is guided by the following key principles:
 \item Both raw and pipeline-processed data will enter the public domain immediately after processing and validation at STScI. These data will have no exclusive access periods (i.e., no proprietary time).
 \end{itemize}
 
+
 \smallskip \smallskip
 \noindent
 STScI recognizes and supports the benefits of having diverse and inclusive scientific teams involved in the formulation of ERS proposals.  Programs with diverse representation of community members in a given sub-discipline helps ensure that the investigations will be of broad interest. Broad involvement also facilitates the dissemination of JWST expertise through a more extensive network, and promotes more equitable participation in JWST scientific discovery.
@@ -28,9 +40,17 @@ STScI recognizes and supports the benefits of having diverse and inclusive scien
 \noindent
 The DD ERS program will be essential for informing the scientific and technical preparation of Cycle 2 General Observer (GO) proposals, submitted seven months after the end of commissioning.
 
-{\it Critically, we have alreayd begun working closely with the MIRI team (due to the P.I.'s location at Edinburgh) and will continue to develop tools here for the MIRI Imager and MRS.}
 
 
+\smallskip
+\smallskip
+\noindent
+{\bf \underline{The Medium-Resolution Spectrometer}:}
+The JWST MIRI medium-resolution spectrometer (MRS; Wells et al. 2015) will observe simultaneous spatial and spectral information between 4.9 and 28.8 $\mu$m over a contiguous field of view up to 7.2" × 7.9" in size. This is the only JWST configuration offering medium-resolution spectroscopy (with R from 1500 to 3500) longward of 5.2 $\mu$m.  \\
+
+\noindent
+MRS observations are carried out using a set of 4 integral field units (IFUs), each of which covers a different portion of the MIRI wavelength range. MRS IFUs split the field of view into spatial slices, each of which produces a separate dispersed "long-slit" spectrum. Post-processing produces a composite 3-dimensional (2 spatial and one spectral dimension) data cube combining the information from each of these spatial slices. This process is illustrated schematically in Figure 1.
+MRS operations have been designed to allow for efficient observations of point sources, compact sources, and fully extended sources. The observer will have control over 3 primary variables: (1) wavelength coverage, (2) dithering pattern, and (3) detector read out mode and exposure time (via the number of frames and integrations).
 
 \medskip
 \medskip
@@ -38,7 +58,6 @@ The DD ERS program will be essential for informing the scientific and technical 
 \smallskip
 \noindent
 {\bf \underline{Relation to Spitzer IRS}:}\\
-
 Major Achievement of Spitzer was IRS. \\
 However IRS had fringing. \\
 Also, Spitzer IRS died before WISE; therefore now WISE W4 objects were observed by the IRS.\\

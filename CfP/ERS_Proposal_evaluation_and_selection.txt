@@ -1,0 +1,48 @@
+
+https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Evaluation+and+Selection+Procedures
+
+Proposal evaluation and selection
+
+Proposals will be chosen in research areas spanning the science themes
+of JWST: first light and reionization; the assembly of galaxies; the
+birth of stars and protoplanetary systems; and planets and the origin
+of life.  Proposals will also cover a range of key instrument modes
+and observing capabilities.  A multi-disciplinary committee of experts
+will evaluate and recommend a suite of proposals for observation and
+funding that fulfills the goals of the DD ERS and makes optimal use of
+the available time.
+
+The JWST DD ERS time allocation committee (TAC) will advise the STScI
+Director on the projects to be selected.  DD ERS TAC members will be
+drawn from the US, European, and Canadian astronomical
+communities. The TAC will be multi-disciplinary, and proposals should
+be written for a non-specialist astronomical audience.
+
+Evaluation will be based on the following criteria, assessing the
+potential to achieve the goals of the DD ERS program:
+
+-- The extent to which the project will improve community
+   understanding of JWST science capabilities and guide subsequent
+   JWST observations.
+
+-- The effectiveness in providing deliverables which include
+   quantitative, data-related measurements that will support the
+   development of Cycle 2 proposals.
+
+ -- The extent to which science-enabling products will be developed to
+    enrich overall scientific return of the mission.
+
+-- The credibility of the management plan for achieving the project
+   goals in a timely manner, particularly the development and delivery of
+   science-enabling products for the community.
+
+-- The overall scientific merit of the program; its significance to major
+   astrophysical sub-disciplines, and to astronomy in general.
+
+All proposals must demonstrate that the unique capabilities of JWST
+are required to achieve the proposed science goals.
+
+All proposals must be technically feasible.  Proposals must
+demonstrate adequate opportunities for execution of observations early
+in Cycle 1, and flexibility to accommodate possible changes to the
+start of Cycle 1 science observations

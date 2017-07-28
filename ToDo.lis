@@ -1,14 +1,17 @@
 
 
 
-
  Top Level
 ==========================================================
-  -- Should we be doing MIRI imaging??
-  -- Should we be doing MIRI coronagraphy??
 
 
 
+
+ Top Level, Science
+==========================================================
+  -- Should we be doing MIRI imaging??	 (probably not)
+  -- Should we be doing MIRI coronagraphy??  (probably not)
+  -- To Do Parallels?? (probably not)
 
 
 
@@ -27,11 +30,14 @@
 
 
 
-
  Financial
 ==========================================================
   -- Preliminary Budget
      https://jwst-docs.stsci.edu/display/JSP/JWST+DD+ERS+Proposal+Preparation#JWSTDDERSProposalPreparation-BudgetManagement
      But maybe only US folks?
+
+
+ Misc
+==========================================================
 
 

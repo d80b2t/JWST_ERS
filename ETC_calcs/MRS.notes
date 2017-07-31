@@ -1,0 +1,20 @@
+
+https://jwst-docs.stsci.edu/display/JTI/MIRI+Medium-Resolution+Spectroscopy
+
+MRS operations have been designed to allow for efficient observations
+of point sources, compact sources, and fully extended sources. The
+observer will have control over 3 primary variables:
+
+(1) wavelength coverage;
+
+(2) dithering pattern, and;
+
+(3) detector read out mode and
+
+thus exposure time (via the number of frames and integrations).
+
+
+
+
+
+All 4 channels are observed simultaneously, but each exposure can only cover one-third of the available wavelength range in a single configuration. For complete spectral coverage, 3 different spectral settings must be observed; SHORT (A), MEDIUM (B), and LONG (C).  

@@ -1,25 +1,24 @@
 
 
 
-THINGS STILL TO CONSIDER AND SORT OUT!!!!
+ THINGS STILL TO CONSIDER AND SORT OUT!!!!
 ======================================================================
 
 -- The actual, and allowable, uncertainty in the J2000 Coordinates
    https://jwst-docs.stsci.edu/display/JPPOM/Fixed+Targets#FixedTargets-Coords
 
--- Observation Folder
-   Observation Summary
-
-
+-- In the Observation Folder:: 
+   Write the Observation Summary. 
 
 -- Target Acquisition Parameters
    incl. Acq Fliter
    	 Acq. Readout Pattern
 	 Ac. Groups/Int
 
--- Dithers (!!)
+-- Dithers 
 
--- Simultaneous Imaging (!!)
+-- Simultaneous Imaging 
+
 
 
 

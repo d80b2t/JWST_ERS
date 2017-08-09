@@ -1,34 +1,51 @@
+We propose the perfect Director’s Discretionary Early Release Science
+(DD ERS) program. We have identified a population of mid-infrared
+bright quasars at the peak of cosmological quasar activity. Their
+global star-formation properites are currently unknown, but
+observations with JWST MIRI, and in particular MRS spectroscopy, will
+quantify the level of star-formation in these objects.
+%%
+Moreover, we have already begun to design and create science-enabling
+products (SEPs) to help the community understand JWST's capabilities,
+Our \href{https://github.com/d80b2t/JWST_ERS}{{\tt Code Repo}} is 
+already active and completely accessible to anyone in the broader community. 
+%%
+We will deliver the MIRI MRS SEPs first with mock data before the launch of
+JWST, and then in rapid fashion once the start of science operations
+commences in April 2019.
 
+\smallskip \smallskip
+\noindent
+Our teams commitment to an open access idealogy, not only for data,
+but for analysis codes, documentation, and scientific manuscripts is
+already evident and in place (see the above GitHub link).  We aim to
+engage a broad cross-section of the astronomical community, in
+particular the extra-galactic community, in familiarizing themselves
+with JWST data and scientific capabilities.
+
+\smallskip \smallskip
+\noindent
+In this proposal we first outline the Scientifc and Community Access rational. 
+We give details of the scientific motivation in the Scientific Justification and why our quasars are the ideal ERS targets. 
+Details of our observations are given in the Technical Description. In short we will observe four quasars with MIRI MRS across the full wavelenght range. The exposure time for each object is $xxxx$ seconds, and our entire program (with APT Smart Accounting envoked) is 25.00 hours. 
+We do give a list of Alternative Targets; We do not have and special observatioal requirements, nor any
+Coordinated Parallel Observations, and no duplications.
+We give more details of our plan to deliver the SEPs in the Data Processing \& Analysis Plan section. This includes a list of analysis code modules we will develop, how the community can rapidly access our findings and tech notes and the breakdown of who in the Core Anaylsis Team is going to do what. 
+
+
+\section*{Science Rationale}
+%\subsection{Science Rationale}
+\iffalse
 \begin{quote}
 {\it ``Observations with HST have confirmed that most nearby galaxies harbor supermassive black holes in their nuclei.
 How do these supermassive black holes form and evolve? Do they grow from stellar “seeds” or do they originate at the very beginning of the formation of a galaxy? These key questions are ripe for a frontal attack now. Addressing them will require the observation of active galactic nuclei (AGNs) when they first turn on, over the entire electromagnetic spectrum. With its enormous sensitivity in the infrared, NGST will be able to detect AGNs out to redshifts beyond 10.''} \\
 -- Astronomy and Astrophysics in the New Millennium (2000-2010 Decadal Survey). 
 \end{quote}
-
-\noindent
-Over 50 years after their formal identification, and over two decades since the calculation of their space density evolution, several fundamental facts remain unknown for high-luminosity AGN, i.e. quasars: \\
-\noindent
-What is the main AGN triggering mechanism at the height of quasar activity at redshifts $z=2-3$? \\ 
-\noindent
-What is the direct, observational evidence in individual objects, that links AGN activity to star formation? \\
-\noindent
-Can we observe ``AGN feedback'' in action, in situ for the most luminous sources at their peak activity?\\ 
-
-\noindent
-These remain the outstanding observational extragalactic questions of
-our time. And they will be answered with the launch of the {\it James
-Webb Space Telescope}.
+\fi
 
 \smallskip \smallskip
 \noindent
-{\it We propose the perfect Director’s Discretionary Early Release Science (DD ERS) program.
-We have identified a population of infrared (20-30$\mu$m observed) bright quasars at the peak 
-of cosmological quasar activity, $z\approx2.5$. 
-Their global star-formation properites are currently unknown, but observations with JWST MIRI, 
-in particular MRS spectroscopy, will quantify the level of star-formation in these objects. 
-Moreover, the IFU aspect of the Medium Resolution Spectrometer will allow, for the first time, 
-detailed investigations of the both the central AGN IR emission and potentially extended emission.
-}
+Over 50 years after their formal identification, and over two decades since the calculation of their space density evolution, several fundamental facts remain unknown for high-luminosity AGN, i.e. quasars: What is the main AGN triggering mechanism at the height of quasar activity at redshifts $z=2-3$? What is the direct, observational evidence in individual objects, that links AGN activity to star formation?  Can we observe ``AGN feedback'' in action, in situ for the most luminous sources at their peak activity? These remain the outstanding observational extragalactic questions of our time. And they will be answered with the launch of the {\it James Webb Space Telescope}.
 
 \smallskip \smallskip
 \noindent
@@ -40,12 +57,39 @@ activity, $z\approx2.5$ and are the best candidates to date to show
 outflows on galactic scales; we are seeing quasar-level AGN feedback
 in action, in situ. 
 
+\smallskip \smallskip
+\noindent
 With our ERS MIRI observations of these ERQ, so called since they are
 bright in the WISE W4 23$\mu$m band, we will deliver all the tools
 necessary to the community in order to optimize Cycle 2 proposals of
 5-30$\mu$m milliJansky bright sources. This is {\it a fundamental
 tool} for the exploitation of a key MIRI instrument mode.
 
+\smallskip
+\smallskip
+\noindent
+{\bf \underline{The Medium-Resolution Spectrometer}:}
+The JWST MIRI medium-resolution spectrometer (MRS; Wells et al. 2015) will observe simultaneous spatial and spectral information between 4.9 and 28.8 $\mu$m over a contiguous field of view up to 7.2" × 7.9" in size. This is the only JWST configuration offering medium-resolution spectroscopy (with R from 1500 to 3500) longward of 5.2 $\mu$m.  \\
+%the IFU aspect of the Medium Resolution Spectrometer will allow, for the first time, detailed investigations of the both the central AGN IR emission and potentially extended emission.
+
+\noindent
+MRS observations are carried out using a set of 4 integral field units
+(IFUs), each of which covers a different portion of the MIRI
+wavelength range. MRS IFUs split the field of view into spatial
+slices, each of which produces a separate dispersed "long-slit"
+spectrum. Post-processing produces a composite 3-dimensional (2
+spatial and one spectral dimension) data cube combining the
+information from each of these spatial slices. This process is
+illustrated schematically in Figure 1.  MRS operations have been
+designed to allow for efficient observations of point sources, compact
+sources, and fully extended sources. The observer will have control
+over 3 primary variables: (1) wavelength coverage, (2) dithering
+pattern, and (3) detector read out mode and exposure time (via the
+number of frames and integrations).
+
+
+
+\section*{Community Access Rationale}
 \noindent
 We will satisfy the Goals and Principles of the DD ERS program by:
 \begin{itemize}
@@ -64,6 +108,19 @@ In particular, we aim to produce several key science products:
 \noindent
 {\it Critically, we have already begun working closely with the MIRI team (due to the P.I.'s location at Edinburgh) and will continue to develop tools here for the MIRI Imager and MRS.}\\
 
+\noindent
+We will produce of SEP analyse code and documentation.  However, the 7
+month period between the end of commissioning and Cycle 2 proposal
+deadlines will be too short for disemination of our findings, novel
+techniques and potentially even science results in the traditional
+manner (via journals). Moreover,  continuall update versions 
+of our analyses are envisaged to happen until right up to the Cycle 2 deadline. 
+
+To solve these issues, we will fully emply the power of a code version
+repository system, in our case GitHub, to keep the community informed
+and updated with or SEPs. GitHu {\it has code versioning automatically
+built-in} so proper referencing of e.g. technical notes can easily
+
 
 \noindent
 The DD ERS program is guided by the following key principles:
@@ -78,34 +135,5 @@ The DD ERS program is guided by the following key principles:
 \end{itemize}
 
 
-\smallskip \smallskip
-\noindent
-STScI recognizes and supports the benefits of having diverse and inclusive scientific teams involved in the formulation of ERS proposals.  Programs with diverse representation of community members in a given sub-discipline helps ensure that the investigations will be of broad interest. Broad involvement also facilitates the dissemination of JWST expertise through a more extensive network, and promotes more equitable participation in JWST scientific discovery.
-
-\smallskip \smallskip
-\noindent
-The DD ERS program will be essential for informing the scientific and technical preparation of Cycle 2 General Observer (GO) proposals, submitted seven months after the end of commissioning.
-
-
-
-\smallskip
-\smallskip
-\noindent
-{\bf \underline{The Medium-Resolution Spectrometer}:}
-The JWST MIRI medium-resolution spectrometer (MRS; Wells et al. 2015) will observe simultaneous spatial and spectral information between 4.9 and 28.8 $\mu$m over a contiguous field of view up to 7.2" × 7.9" in size. This is the only JWST configuration offering medium-resolution spectroscopy (with R from 1500 to 3500) longward of 5.2 $\mu$m.  \\
-
-\noindent
-MRS observations are carried out using a set of 4 integral field units (IFUs), each of which covers a different portion of the MIRI wavelength range. MRS IFUs split the field of view into spatial slices, each of which produces a separate dispersed "long-slit" spectrum. Post-processing produces a composite 3-dimensional (2 spatial and one spectral dimension) data cube combining the information from each of these spatial slices. This process is illustrated schematically in Figure 1.
-MRS operations have been designed to allow for efficient observations of point sources, compact sources, and fully extended sources. The observer will have control over 3 primary variables: (1) wavelength coverage, (2) dithering pattern, and (3) detector read out mode and exposure time (via the number of frames and integrations).
-
-\medskip
-\medskip
-\smallskip
-\smallskip
-\noindent
-{\bf \underline{Relation to Spitzer IRS}:}\\
-Major Achievement of Spitzer was IRS. \\
-However IRS had fringing. \\
-Also, Spitzer IRS died before WISE; therefore now WISE W4 objects were observed by the IRS.\\
 
 

@@ -68,11 +68,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
             <TargetName>J0834+0159</TargetName>
             <TargetArchiveName>J0834+0159</TargetArchiveName>
             <TargetID>J0834+0159</TargetID>
-            <RAProperMotion>0.002</RAProperMotion>
-            <DecProperMotion>0.002</DecProperMotion>
+            <RAProperMotion></RAProperMotion>
+            <DecProperMotion></DecProperMotion>
             <RAProperMotionUnits>mas/yr</RAProperMotionUnits>
             <DecProperMotionUnits>mas/yr</DecProperMotionUnits>
-            <Epoch>2000.00</Epoch>
             <Extended>Unknown</Extended>
             <Category>Galaxy</Category>
             <Keywords>Active galactic nuclei</Keywords>
@@ -228,10 +227,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>5</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>5</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>10</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>10</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>
@@ -284,10 +283,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>10</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>10</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>10</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>10</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>
@@ -340,10 +339,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>10</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>10</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>10</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>10</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>
@@ -396,10 +395,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>10</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>10</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>10</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>10</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>

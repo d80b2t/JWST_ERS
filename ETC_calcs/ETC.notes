@@ -23,17 +23,26 @@ Instrument Setup::
 
 Detector Setup::
     Subarray		FULL
-    Readout Patter 	SLOW
+    Readout Pattern 	SLOW
 
  Groups	   Integreations   Total (EXP) TIME	SNR	Total Ints:	Notes
- 100	   1		   4778			69.83	2     		(5.32um; )
- 50	   2  		   4778			72.20	4			
- 20	   5		   4778			64.16	10 
- 10	   10		   4778			20.04	20
- 20	   1		    956			29.01	2
- 
+ 100	   1		   4778			69.96	2     		(5.32um; )
+ 50	   2  		   4778			72.32	4		(5.32um; )
+ 25	   4		   4778			69.49   8
+ 20	   5		   4778			64.25	10 
+ 10	   10		   4778			44.67	20
 
-Nod in Scene strategy uses a 2-Point dither.
+
+ 20	   5		   4778.00		64.25	10 
+ 20	   4		   3822.40		57.51	8
+ 20	   3		   2866.80		49.84	6
+ 20	   2		   1911.20    		40.72	4
+ 20	   1		    956.60		28.81	2
+
+
+
+
+All "Nod in Scene strategy" using a 2-Point dither.
 
 
 Strategy::
@@ -86,3 +95,30 @@ Offset:
 
 
 
+Hi there, 
+
+So, there are (still!!) something fundamental things I don't understand about the MIRI MRS and the ETC in particular. 
+I'm looking to make observations across the full MIRI MRS wavelength range, so will be using the SHORT, MEDIUM and LONG wavelength settings. I have a point source that is 5 mJy at 23um, and have uploaded my own measured SED. 
+My workbook is wb_id=7474
+https://jwst.etc.stsci.edu/workbook.html?wb_id=7474
+
+At this point, for the ETC Calculations and Strategy,  I'm very keen to know what the difference is between 
+"IFU Nod In Scene" and "IFU Nod Off Scene". 
+
+Morever, for the Detector Set-up, I'm still not sure what the best combination/trade-off for the  Groups, Integrations and Exposures is. 
+
+For example, from my workbook 
+ Groups	Integrations   Total (EXP) TIME	SNR	Total integrations
+ 100	        1		             4778			        69.96	2     		
+ 50	                2   		             4778			        72.32	4		
+ 25	                4		             4778			         69.49    8
+ 20	                5		             4778		         	 64.25	10 
+ 10	                10		             4778		    	        44.67	20
+ 
+So definitely some change in SNR for the same Exposure time, given different Groups and Integrations. 
+
+Finally, I'm going to be using the 4-point Dither for our ERS proposal. 
+Is there an option in the ETC to lock that in (vs. "Nod in Scene strategy uses a 2-Point dither") 
+
+Thanks, 
+Nic

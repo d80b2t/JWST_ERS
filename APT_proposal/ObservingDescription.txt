@@ -1,0 +1,38 @@
+We propose to use MIRI MRS to observe four IR-bright quasars across
+the full MRS wavelength range. We will deliver to the community
+Science Enabling Products (SEPs) that will enable the accumulation,
+reduction and timely analysis of MRS data, focusing on extra-galactic
+science.
+
+Our 4 quasars are all well detected in the WISE W3 and W4 bands, and
+are thus very bright across 7.5-17um and 20-28um. They were first
+identified via their optical-to-IR color, initially via the r-W4
+color, refined to an i-W3 color selection and are in the SDSS/BOSS
+quasar catalogs. As such, they have come to be know as ``Extremely Red
+Quasars'' (ERQs).
+
+We will observe four of these Extremely Red Quasars (ERQs) with the
+MIRI Medium Resolution Spectrometer. All our targets are within 10
+degrees of the Celestial Equator, and 3 out of our 4 targets are
+within 2 degrees. Our targets are at approximately 08h30m, 12h30m,
+22h15m and 23h25min, in Right Ascension. We will observe each target
+for 19973 seconds in total, 12912 seconds of which are Science
+exposure. We will cover the full wavelength range, so will observe in
+the SHORT, MEDIUM and LONG modes of the MRS.
+
+Taking advantage of the PI's host institution, and with continuing
+consultation with the MIRI team, as well as acknowledging the rationale
+of the ERS in general, we have decided to focus in on one instrument,
+and one particular mode of that instrument, and make sure we deliver
+to the (extragalactic) community the very best data tools,
+observational preparation instructions and science enabling products
+(SEPs). Our major documentation and notes are kept at::
+
+github.com/d80b2t/JWST_ERS
+
+with our Observing notes kept at::
+
+https://github.com/d80b2t/JWST_ERS/tree/master/ETC_calcs
+
+We encourage the Program Coordinators and Schedulers to investigate
+these links.

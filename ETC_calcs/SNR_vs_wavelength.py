@@ -27,23 +27,29 @@ path = '/cos_pc19a_npr/LaTeX/proposals/JWST/JWST_ERS/ETC_calcs/'
 ##
 ##  P h o t o m e t r y    d a t a
 ##
-twenty =  ascii.read(path+'SNR_vs_wavelength_2866sec_20Gr03Ints.dat')
-ten = ascii.read(path+'SNR_vs_wavelength_2866sec_10Gr06Ints.dat')
-fife = ascii.read(path+'SNR_vs_wavelength_2150sec_15Gr03Ints.dat')
-
+twenty_three =  ascii.read(path+'SNR_vs_wavelength_2866sec_20Gr03Ints.dat')
+#twenty_six =  ascii.read(path+'SNR_vs_wavelength_2866sec_20Gr06Ints.dat')
+ten_three = ascii.read(path+'SNR_vs_wavelength_1433sec_10Gr03Ints.dat')
+ten_six = ascii.read(path+'SNR_vs_wavelength_2866sec_10Gr06Ints.dat')
+fife_three = ascii.read(path+'SNR_vs_wavelength_2150sec_15Gr03Ints.dat')
+fife_six = ascii.read(path+'SNR_vs_wavelength_4300sec_15Gr06Ints.dat')
 ##
 ##  P l o t t i n g    t h i n g s    u p...
 ##
 plt.rcParams.update({'font.size': 18})
 fig, ax = plt.subplots(figsize=(16, 7))
 
-plt.plot(twenty['Wavelength'], twenty['snr'], linestyle='solid', linewidth=4)
-plt.plot(ten['Wavelength'], ten['snr'], linestyle='dotted', linewidth=4)
-plt.plot(fife['Wavelength'], fife['snr'], linestyle='dashed', linewidth=4)
+plt.plot(twenty_three['Wavelength'], twenty_three['snr'], linestyle='solid', linewidth=4)
+plt.plot(ten_three['Wavelength'], ten_three['snr'], linestyle='dotted', linewidth=4)
+plt.plot(ten_six['Wavelength'], ten_six['snr'], linestyle='dotted', linewidth=4)
+plt.plot(fife_three['Wavelength'], fife_three['snr'], linestyle='dashed', linewidth=4)
+plt.plot(fife_six['Wavelength'], fife_six['snr'], linestyle='dashed', linewidth=4)
 
-plt.legend(['2866sec_20Gr03Ints', '2866sec_10Gr06Ints', '2150sec_15Gr03Ints'], 
+plt.legend(['2866sec_20Gr03Ints', '1433sec_10Gr03Ints', '2866sec_10Gr06Ints', '2150sec_15Gr03Ints', '4300sec_15Gr06Ints' ], 
            loc="upper right", ncol=1, shadow=True, fancybox=True,
            fontsize=22, frameon=True)
+
+
 
 plt.xlabel('wavelength / $\mu$m ')
 plt.ylabel('ETC SNR')

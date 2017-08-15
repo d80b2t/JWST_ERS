@@ -1,3 +1,26 @@
+\section*{Summary of DD-ERS Data Products}
+%Examples
+
+1.	Participation in community briefings organized by STScI
+written/oral updates on progress
+written/oral documentation of lessons-learned
+2.	Software with documentation
+data analysis and modeling
+enhanced data processing
+3.	Enhanced data products with documentation
+aligned multiband images, extracted spectra, etc
+catalogs
+
+Building blocks for GO programs 
+APT files available at Cy1 CP release
+Enables Cy1 archival programs
+
+Provides kernels for cohesive science-based training sets 
+Observation \& proposal planning
+Data reduction and analysis cookbooks
+
+
+
 \section*{General Outline and Motvations Driving Data Processing \& Analysis}
 We are already ensuring open access to representative data sets, processeing pipelines and analysis tools in 
 support of the preparation of both Cycle 1 and Cycle 2 proposals. 
@@ -26,26 +49,8 @@ The key links are:: \\
 (With the source code here: \href{https://github.com/miri-mrs/ERQs/tree/master/docs}{{\tt https://github.com/miri-mrs/ERQs/tree/master/docs}}). \\
 
 
-\medskip \medskip
-\noindent
-Our ERQ ERS proposal is the first part of a multi-cycle proposal
-project and plan.  As such, we are {\it already highly motivated to
-produce the data processing tools, codes, documentation and identify
-the critical science-enabling products well in advance of the release
-of the Cycle 2 Call for Proposals (September 2019).}
 
-\smallskip \smallskip
-\noindent
-Our Science-Enabling Products team consists of five main parts::
-\begin{itemize}
-    \item ``Core Coders''; 
-    \item Website and \href{http://miri-mrs.readthedocs.io/en/latest/}{{\tt ReadTheDocs}} Writers; 
-    \item Observational Follow-up; 
-    \item Senior members of staff, able to supply students/ ask for funding; 
-    \item A small steering committee. 
-\end{itemize}
-
-
+\iffalse
 \section*{ERS ERQ Science Enabling Products}
 {\tt mrs\_analyzer} is  a Python module for analyzing MRS data; \\
 {\tt mrsfringe} is a Python module for mitigating MRS fringing issues; \
@@ -56,7 +61,7 @@ And will integrate with...\\
 \href{https://github.com/STScI-JWST}{\tt https://github.com/STScI-JWST} \\
 see e.g. \\
 {\tt https://github.com/STScI-JWST/jwst/blob/master/jwst/mrs\_imatch/mrs\_imatch\_step.py}\\
-
+\fi
 
 \section*{MIRISim}
 MIRI data simulations (at ESA) include an Integral Field observation
@@ -81,11 +86,92 @@ https://jwst.stsci.edu/science-planning/proposal-planning-toolbox/simulated-data
 
 
 \section*{Delivery Schedule for Science-Enabling Products.} 
-Proposals must present a delivery schedule for science-enabling products. A description of STScI pipeline data products, processing and analysis software, and their anticipated availability, will be provided by the May 2017 release of the final version of this Call for Proposals.  Proposers may consider multiple deliveries, with more advanced products provided over longer timescales. Proposals may include the collection, processing and analysis of ancillary data as part of an integrated DD ERS proposal.
+Our ERQ ERS proposal is the first part of a multi-cycle proposal
+project and plan.  As such, we are {\it already highly motivated to
+produce the data processing tools, codes, documentation and identify
+the critical science-enabling products well in advance of the release
+of the Cycle 2 Call for Proposals (September 2019).}
+Our major milestones are laid out here::
+%Proposals must present a delivery schedule for science-enabling products. A description of STScI pipeline data products, processing and analysis software, and their anticipated availability, will be provided by the May 2017 release of the final version of this Call for Proposals.  Proposers may consider multiple deliveries, with more advanced products provided over longer timescales. Proposals may include the collection, processing and analysis of ancillary data as part of an integrated DD ERS proposal.
+
+\medskip
+\medskip
+\noindent 
+{\bf \underline{Proposed Delivery for SEPs}} 
+
+\smallskip
+\smallskip
+\noindent
+{\bf Before Cycle 1 GO Proposal Deadline (end Feb 2018):} 
+%DD ERS Results Released	November 2017
+%Release of the Cycle 1 Call for GO Proposals	November 30, 2017
+Formal DD ERS Budget Proposals	Early December 2017; 
+%GTO APT Files Published (public)	December 15, 2017
+DD ERS APT Files Published (public)	December 2017
+
+\smallskip
+\smallskip
+\noindent
+ {\bf Prior to Launch (March 2018 - October 2018):} 
+Produce and test the final {\it Spitzer} SpIES QSO catalogue; perform
+QLF and clustering measurements using combined deep
+optical$+$NIR$+$MIR selections using SpIES and NEOWISE.  Set-up and
+initialisation of first variability test-bed based on SDSS Stripe 82
+and Pan-STARRS medium deep fields (MDFs).
+
+\smallskip
+\smallskip
+\noindent
+{\bf Commissioning (November 2018-April 2019):} 
+Take SDSS$+$BOSS$+$SpIES$+$NEOWISE QSO results and compare to latest
+theoretical hydrodynamical simulations; by $\sim2017/18$, these
+simulations should be resolving the Jeans Scale in cosmological
+volumes, i.e. well-suited for detailed QSO feedback models and
+simulations. {\it JWST} Cycle 0 proposals due.
+
+\smallskip
+\smallskip
+\noindent
+{\bf ERS and Cycle 1 (April 2019-September 2019):} 
+Further QSO variability investigations using Stripe 82 and Pan-STARRS
+MDFs. Begin ramp-up to ``Stage IV'' dark energy and QSO experiments
+from {\it Euclid} and LSST.  Projected launch of {\it JWST}.
+
+\smallskip
+\smallskip
+\noindent
+{\bf After Cycle 2 GO Deadline (post-September 2019):} 
+LSST fully online. Combine with commissioning data from {\it Euclid} to
+discover $z>8$ quasars and a large sample of Obscured quasars, as
+potential further targets for {\it JWST}.
+
+
+
+%\begin{itemize}
+%\item dddd
+%\end{itemize}
 
 
 \section*{Co-Investigators and Delivery of Science-Enabling Products.}
-Co-Investigators, together with the PI (and any Co-PIs) comprise a core team with the responsibility of developing and delivering science-enabling products as described in the proposal, as well as carrying out selected key aspects of the science investigations.  A Co-I must have a well-defined, and generally sustained, continuing role in team activities, serve under the direction of the PI, or co-PI(s). Co-investigators may or may not receiving funding, pending eligibility, through the DD ERS program. A bibliography and SEP tasks of our team can be found \href{https://github.com/d80b2t/JWST_ERS/blob/master/Proposal/CoI_bios.tex}{here} and the SEP Deliverables are \href{https://github.com/d80b2t/JWST_ERS/tree/master/Deliverables}{here}. 
+Everyone named on this proposal is part of the ``core team''. 
+%Co-Investigators, together with the PI (and any Co-PIs) comprise a core team with the responsibility of developing and delivering science-enabling products as described in the proposal, as well as carrying out selected key aspects of the science investigations.  A Co-I must have a well-defined, and generally sustained, continuing role in team activities, serve under the direction of the PI, or co-PI(s). Co-investigators may or may not receiving funding, pending eligibility, through the DD ERS program. 
+%\medskip \medskip \noindent
+\smallskip \smallskip
+\noindent
+Our Science-Enabling Products team consists of five main parts::
+\begin{itemize}
+    \item ``Core Coders''; 
+    \item Website and \href{http://miri-mrs.readthedocs.io/en/latest/}{{\tt ReadTheDocs}} Writers; 
+    \item Observational Follow-up; 
+    \item Senior members of staff, able to supply students/ ask for funding; 
+    \item A small steering committee. 
+\end{itemize}
+
+
+\smallskip
+\smallskip
+\noindent
+A bibliography and SEP tasks of our team can be found \href{https://github.com/d80b2t/JWST_ERS/blob/master/Proposal/CoI_bios.tex}{here} and the SEP Deliverables are \href{https://github.com/d80b2t/JWST_ERS/tree/master/Deliverables}{\tt here}. 
 
 %\input{CoI_bios.tex}
 

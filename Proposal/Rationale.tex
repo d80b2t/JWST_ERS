@@ -1,93 +1,81 @@
 
-DD-ERS proposal requirements (not your standard GO proposal…)
-
-1. Justification for ERS time
-    How will your program help the community learn to do science with JWST
-    and prepare for Cy2?  What science-enabling products are proposed for
-    development and release? How will your program demonstrate baseline JW
-    science capabilities?
-    
-2. Project Management Plan \& Budget
-    Data processing and analysis plan, roles, responsibilities, work
-    schedule, budget. Identification of core team responsible for
-    science-enabling product development and delivery.
-
-3. Scientific Justification
-    Why are the observations scientifically compelling and require JWST?.
-
-4. Description of the Observations
-    Establish feasibility for early execution, and flexibility in
-    target selection to accommodate any change to start date for Cy1
-    science obs.
-
-5. Team Diversity
-    Description of how the proposing team represents and has input
-    from diversity of experts with broad demographics within
-    sub-discipline
-	
-
-DD-ERS Data Products
-
-Examples
-
-1.	Participation in community briefings organized by STScI
-written/oral updates on progress
-written/oral documentation of lessons-learned
-2.	Software with documentation
-data analysis and modeling
-enhanced data processing
-3.	Enhanced data products with documentation
-aligned multiband images, extracted spectra, etc
-catalogs
-
-Building blocks for GO programs 
-APT files available at Cy1 CP release
-Enables Cy1 archival programs
-
-Provides kernels for cohesive science-based training sets 
-Observation & proposal planning
-Data reduction and analysis cookbooks
-
-
-
-
-
-
-
-
-
-
-We have identified a population of obscured, mid-infrared bright
-quasars at the peak of cosmological quasar activity.  These sources are
-mid-IR luminous and may be powered by major bursts of star formation
-tied to an early phase of galaxy evolution/formation. However, their
-global star-formation properties are currently unknown, but
-observations with JWST MIRI, and in particular MRS spectroscopy, will
-quantify the level of star-formation in these objects.  {\it We will
-observe four ``extremely red'' quasars with MIRI MRS across the full wavelength range to
-very high signal to noise.} These observations will address the
-fundamental question of the link between star-formation and AGN
-activity, at the cosmological epoch for both of these processess; an
-investigation JWST was specifically built for.
+\section*{{\sc Executive Summary}}
+%%\smallskip \smallskip
+\noindent
+{\it 1. Justification for ERS time}\\
+%% How will your program help the community learn to do science with JWST and prepare for Cy2?  What science-enabling products are proposed for development and release? How will your program demonstrate baseline JW science capabilities?
+Our Director’s Discretionary time for an Early Release Science (DD-ERS) 
+program will help the community learn about the longest 
+wavelength spectrograph on the JWST, the MIRI MRS. 
+We will release a suite of science-enabling products (SEPs)
+via a public data analysis and code repository that we have already 
+begun to build: 
+\href{https://github.com/miri-mrs}{\tt github.com/miri-mrs}. 
+The accompanying documentation is also already being written:
+\href{http://miri-mrs.readthedocs.io/}{{\tt miri-mrs.readthedocs.io}}. 
 
 \smallskip \smallskip
 \noindent
-Moreover, we have already begun to design and create science-enabling
-products (SEPs) to help the community understand JWST's capabilities,
-Our \href{https://github.com/miri-mrs}{{\tt MIRI MRS Code Repo}} is
-already active and completely accessible to anyone in the broader
-community.  We will deliver the MIRI MRS SEPs first with mock data
-before the launch of JWST, and then in rapid fashion once the start of
-science operations commences in April 2019.
-%%
-Our team's commitment to an open access ideology, not only for data,
-but for analysis codes, documentation, and scientific manuscripts is
-already evident and in place (for an example, see
-\href{https://github.com/d80b2t}{{\tt the P.I.'s GitHub}}).  Via these
-code repos, and extensive documentation efforts, we aim to engage a
-broad cross-section of the astronomical community, in particular the
-extra-galactic community, in familiarizing themselves with JWST data
-and its scientific capabilities.
+{\it 2. Project Management Plan \& Budget} \\
+%% Data processing and analysis plan, roles, responsibilities, work schedule, budget. Identification of core team responsible for science-enabling product development and delivery.
+Our team members have a long and proven history of delivering science,
+catalogs, data products, web access pages, documentation and the
+necessary Helpdesk support for large collaborations on strict
+deadlines.  Our project is led by a STFC Ernest Rutherford Senior
+Research Fellow, who is able to contribute 100\% FTE to the
+development, delivery and management of the SEPs.  We also ask for
+support for two postdoctoral researchers who will be in place at
+Launch time.
+
+\smallskip \smallskip
+\noindent
+{\it 3. Scientific Justification}\\
+%Why are the observations scientifically compelling and require JWST?.
+Our science case is simple, yet strikes at the heart of a major and
+still open extragalactic astrophysical question:: {\it What are the
+star-formation properties of mid-infrared luminous quasars at the peak
+of quasar activity, $z\sim2.5$? } Furthermore, we look to use the IFU
+capability of MIRI MRS in order to quantify the spatial location of
+the IR luminosity.  This is an ideal investigation for {\it James
+Webb}; no other telescope, or observatory, ground, or space-based, is
+currently being built, or designed, to perform spectroscopy beyond
+19$\mu$m; these red wavelengths vital for accessing polycyclic
+aromatic hydrocarbon (PAH) spectral features at $z>2$.
+
+\smallskip \smallskip
+\noindent
+{\it 4. Description of the Observations}\\
+%Establish feasibility for early execution, and flexibility in target selection to accommodate any change to start date for Cy1 science obs.
+We have four primary targets; all are available for early observation.
+We also have a back-up list of 11 objects, any four of which would be
+suitable as secondary targets and would allow us to achieve our SEP
+and Science goals.
+
+\smallskip \smallskip
+\noindent
+{\it 5. Team Diversity}\\
+%% 	Description of how the proposing team represents and has input  	from diversity of experts with broad demographics within sub-discipline
+Our team is an ensemble of observational extragalactic experts from
+around the world.  This is a new collaboration, but with substantial
+expertise from the SDSS, the {\it HST} Deep Field surveys, and more
+recent ground-based IR IFU collaborations.  Our team has a gender
+binary split of 7:12 F:M, and is predominantly White American or White
+European.
+%Alexander    Alexandroff
+%Brandt          Banerji
+%Fan               MacLeod
+%Hamann       Runnoe
+%Kocevski      Smit%
+%Mullaney      Zakamska
+%Myers           LaMassa
+%Rosario
+%Ross
+%Schneider
+% J Stott
+%M Strauss
+%Crain
+%McGreer
+
 
 
 \section*{Science Rationale}
@@ -104,6 +92,21 @@ for the most luminous sources at their peak activity? These remain the
 outstanding observational extragalactic questions of our time. And
 they will be answered with the launch of the {\it James Webb Space
 Telescope}.
+
+\smallskip \smallskip
+\noindent
+We have identified a population of obscured, mid-infrared bright
+quasars at the peak of cosmological quasar activity.  These sources are
+mid-IR luminous and may be powered by major bursts of star formation
+tied to an early phase of galaxy evolution/formation. However, their
+global star-formation properties are currently unknown, but
+observations with JWST MIRI, and in particular MRS spectroscopy, will
+quantify the level of star-formation in these objects.  {\it We will
+observe four ``extremely red'' quasars with MIRI MRS across the full wavelength range to
+very high signal to noise.} These observations will address the
+fundamental question of the link between star-formation and AGN
+activity, at the cosmological epoch for both of these processess; an
+investigation JWST was specifically built for.
 
 \smallskip \smallskip
 \noindent
@@ -148,13 +151,33 @@ community, in familiarizing themselves with JWST data and scientific
 capabilities by utilizing modern analysis (code writing) repository
 tools and documentation that is standardized and publicly editable.
 
+\smallskip \smallskip
 \noindent
-In particular, we aim to produce several key science products:
-\begin{itemize}
-\item {\tt mrs\_analyzer} A Python module for analyzing MRS data; 
-\item {\tt mrsfringe} A Python module for mitigating MRS fringing issues; 
-\item a suite of science results on quasar feedback and evolution. 
-\end{itemize}
+Moreover, we have already begun to design and create science-enabling
+products (SEPs) to help the community understand JWST's capabilities,
+Our \href{https://github.com/miri-mrs}{{\tt MIRI MRS Code Repo}} is
+already active and completely accessible to anyone in the broader
+community.  We will deliver the MIRI MRS SEPs first with mock data
+before the launch of JWST, and then in rapid fashion once the start of
+science operations commences in April 2019.
+%%
+Our team's commitment to an open access ideology, not only for data,
+but for analysis codes, documentation, and scientific manuscripts is
+already evident and in place (for an example, see
+\href{https://github.com/d80b2t}{{\tt the P.I.'s GitHub}}).  Via these
+code repos, and extensive documentation efforts, we aim to engage a
+broad cross-section of the astronomical community, in particular the
+extra-galactic community, in familiarizing themselves with JWST data
+and its scientific capabilities.
+
+%\smallskip \smallskip
+%\noindent
+%In particular, we aim to produce several key science products:
+%\begin{itemize}
+%\item {\tt mrs\_analyzer} A Python module for analyzing MRS data; 
+%\item {\tt mrsfringe} A Python module for mitigating MRS fringing issues; 
+%\item a suite of science results on quasar feedback and evolution. 
+%\end{itemize}
 
 \noindent
 {\it Critically, we have already begun working closely with the MIRI

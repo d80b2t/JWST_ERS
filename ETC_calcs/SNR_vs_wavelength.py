@@ -33,23 +33,62 @@ ten_three = ascii.read(path+'SNR_vs_wavelength_1433sec_10Gr03Ints.dat')
 ten_six = ascii.read(path+'SNR_vs_wavelength_2866sec_10Gr06Ints.dat')
 fife_three = ascii.read(path+'SNR_vs_wavelength_2150sec_15Gr03Ints.dat')
 fife_six = ascii.read(path+'SNR_vs_wavelength_4300sec_15Gr06Ints.dat')
+
+fortyfive = ascii.read(path+'SNR_vs_wavelength_2150sec_45Gr01Ints.dat')
+twentytwo_two = ascii.read(path+'SNR_vs_wavelength_2102sec_22Gr02Ints.dat')
+eleven_four = ascii.read(path+'SNR_vs_wavelength_2102sec_11Gr04Ints.dat')
+
+
+
 ##
 ##  P l o t t i n g    t h i n g s    u p...
 ##
 plt.rcParams.update({'font.size': 18})
 fig, ax = plt.subplots(figsize=(16, 7))
 
+'''
 plt.plot(twenty_three['Wavelength'], twenty_three['snr'], linestyle='solid', linewidth=4)
 plt.plot(ten_three['Wavelength'], ten_three['snr'], linestyle='dotted', linewidth=4)
-plt.plot(ten_six['Wavelength'], ten_six['snr'], linestyle='dotted', linewidth=4)
 plt.plot(fife_three['Wavelength'], fife_three['snr'], linestyle='dashed', linewidth=4)
-plt.plot(fife_six['Wavelength'], fife_six['snr'], linestyle='dashed', linewidth=4)
+plt.plot(ten_six['Wavelength'], ten_six['snr'], linestyle='dotted', linewidth=4)
+#plt.plot(fife_six['Wavelength'], fife_six['snr'], linestyle='dashed', linewidth=4)
 
-plt.legend(['2866sec_20Gr03Ints', '1433sec_10Gr03Ints', '2866sec_10Gr06Ints', '2150sec_15Gr03Ints', '4300sec_15Gr06Ints' ], 
+plt.legend(['2866sec_20Gr03Ints', '1433sec_10Gr03Ints', '2150sec_15Gr03Ints', '2866sec_10Gr06Ints'], 
            loc="upper right", ncol=1, shadow=True, fancybox=True,
            fontsize=22, frameon=True)
+'''
+'''
+plt.plot(fortyfive['Wavelength'], fortyfive['snr'], linestyle='solid', linewidth=4)
+plt.plot(twentytwo_two['Wavelength'], twentytwo_two['snr'], linestyle='dotted', linewidth=4)
+plt.plot(fife_three['Wavelength'], fife_three['snr'], linestyle='dashed', linewidth=4)
+plt.plot(eleven_four['Wavelength'], eleven_four['snr'], linestyle='dashdot', linewidth=4)
+
+plt.legend(['2150sec_45Gr01Ints', '2102sec_22Gr02Ints', '2150sec_15Gr03Ints', '2102sec_11Gr04Ints' ], 
+           loc="upper right", ncol=1, shadow=True, fancybox=True,
+           fontsize=22, frameon=True)
+'''
+
+plt.plot(fife_six['Wavelength'], fife_six['snr'], linestyle='dashdot', linewidth=4)
+plt.plot(twenty_three['Wavelength'], twenty_three['snr'], linestyle='solid', linewidth=4)
+plt.plot(ten_six['Wavelength'], ten_six['snr'], linestyle='solid', linewidth=4)
+
+plt.plot(fortyfive['Wavelength'], fortyfive['snr'], linestyle='dashed', linewidth=4)
+plt.plot(fife_three['Wavelength'], fife_three['snr'], linestyle='dashed', linewidth=4)
+
+plt.plot(twentytwo_two['Wavelength'], twentytwo_two['snr'], linestyle='dotted', linewidth=4)
+plt.plot(eleven_four['Wavelength'], eleven_four['snr'], linestyle='dotted', linewidth=4)
+
+plt.plot(ten_three['Wavelength'], ten_three['snr'], linestyle='dashdot', linewidth=4)
+
+plt.legend(['4300sec_15Gr06Ints', '2866sec_20Gr03Ints', '2866sec_10Gr06Ints', '2150sec_45Gr01Ints', 
+            '2150sec_15Gr03Ints', '2102sec_22Gr02Ints',  '2102sec_11Gr04Ints', '1433sec_10Gr03Ints'], 
+           loc="upper right", ncol=1, shadow=True, fancybox=True,
+           fontsize=20, frameon=True)
 
 
+
+
+plt.ylim([0,140])
 
 plt.xlabel('wavelength / $\mu$m ')
 plt.ylabel('ETC SNR')

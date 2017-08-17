@@ -9,55 +9,44 @@ legacy code for this type of analysis: {\href
 https://spectral-cube.readthedocs.io/}{\tt
 spectral-cube.readthedocs.io}.
 
-\smallskip
-\smallskip
+\smallskip \smallskip
 \noindent
-{\bf NOTE TO NPR, THIS NEEDS UPDATED!!} 
-Further items that we will deliver include:
-\begin{itemize}
-\item Participation in community briefings organized by STScI; 
-written/oral updates on progress; 
-written/oral documentation of lessons-learned. 
-\item Software with documentation
-data analysis and modeling
-enhanced data processing
-\item Enhanced data products with documentation
-aligned multiband images, extracted spectra, etc
-catalogs
-\end{itemize}
+With {\it a maximum} of 6 months between the first ERS observations
+and the Cycle 2 GO Call for Proposals, 
+this will likely be too short for full dissemination of our findings, novel
+techniques and science results in the traditional manner, i.e. via
+published journal articles. Moreover, ongoing updated versions of our
+analyses and codes are envisaged to happen until right up to the Cycle 2
+deadline.  To solve these issues, we will fully employ the power of a
+code version repository system, in our case GitHub, to keep the
+community informed and updated with our SEPs. GitHub {\it has code
+versioning automatically built-in} so proper referencing of
+e.g. technical notes is straight-forward.
 
+%% 8.225 kpc/".
+%% 3.5 × 3.5 arcsec field
 
+\section*{Code Repositories and Documentation}
+\vspace{-8pt}
+We are already ensuring open access to representative data sets,
+processeing pipelines and analysis tools in support of the preparation
+of both Cycle 1 and Cycle 2 proposals.  The key links are:: 
 
-\section*{General Outline and Motvations Driving Data Processing \& Analysis}
-We are already ensuring open access to representative data sets, processeing pipelines and analysis tools in 
-support of the preparation of both Cycle 1 and Cycle 2 proposals. 
-%engage a broad cross-section of the astronomical community in familiarizing themselves with JWST data and scientific capabilities.
-The key links are:: \\ 
+\vspace{4pt}
+\noindent
+\href{https://github.com/d80b2t/JWST\_ERS}{{\tt github.com/d80b2t/JWST\_ERS}} (the P.I.'s public GitHub repository).
+\vspace{4pt}
 
-%\vspace{6pt}
-%\noindent
-%\vspace{4pt}
-\href{https://github.com/d80b2t/JWST\_ERS}{{\tt github.com/d80b2t/JWST\_ERS}} 
+\noindent
+\href{https://github.com/miri-mrs}{{\tt github.com/miri-mrs}} (a ``Organizational'' public repository for the Community).
+\vspace{4pt}
 
-(the P.I.'s personal and public GitHub repository).
-\\
-
-%\vspace{6pt} 
-%\noindent
-\href{https://github.com/miri-mrs}{{\tt github.com/miri-mrs}} 
-
-(a ``Organizational'' public GitHub repository for the Community).
-\\
-
-%\vspace{6pt}
-%\noindent
-\href{http://miri-mrs.readthedocs.io/en/latest/}{{\tt miri-mrs.readthedocs.io}}
-
-(With the source code here: \href{https://github.com/miri-mrs/ERQs/tree/master/docs}{{\tt https://github.com/miri-mrs/ERQs/tree/master/docs}}). \\
-
+\noindent
+\href{http://miri-mrs.readthedocs.io/en/latest/}{{\tt miri-mrs.readthedocs.io}} (the global documentation)\\
 
 
 \section*{MIRISim}
+\vspace{-6pt}
 MIRI data simulations (at ESA) include an Integral Field observation
 with the Medium Resolution Spectrograph (MRS), a Low Resolution
 Spectrograph (LRS) observation, and an imaging observation. (Credit:
@@ -80,18 +69,13 @@ https://jwst.stsci.edu/science-planning/proposal-planning-toolbox/simulated-data
 
 
 \section*{Delivery Schedule for Science-Enabling Products.} 
+\vspace{-6pt}
 Our ERQ ERS proposal is the first part of a multi-cycle proposal
 project and plan.  As such, we are {\it already highly motivated to
 produce the data processing tools, codes, documentation and identify
 the critical science-enabling products well in advance of the release
 of the Cycle 2 Call for Proposals (September 2019).}
-Our major milestones are laid out here::
-%Proposals must present a delivery schedule for science-enabling products. A description of STScI pipeline data products, processing and analysis software, and their anticipated availability, will be provided by the May 2017 release of the final version of this Call for Proposals.  Proposers may consider multiple deliveries, with more advanced products provided over longer timescales. Proposals may include the collection, processing and analysis of ancillary data as part of an integrated DD ERS proposal.
-
-\medskip
-\medskip
-\noindent 
-{\bf \underline{Proposed Delivery for SEPs}} 
+Our major milestones are::
 
 \smallskip
 \smallskip
@@ -119,7 +103,7 @@ sagittis elit. Nulla in elementum erat.
 \smallskip
 \smallskip
 \noindent
-{\bf ERS and Cycle 1 (April 2019-September 2019):} 
+{\bf ERS/Cycle 1 (April 2019-September 2019):} 
 Rapid version updates once the start of science operations commences
 in April 2019.  In dictum arcu at nisi porttitor commodo. Donec felis
 felis, elementum sit amet ultrices ac, interdum nec ante. Nullam eget
@@ -131,35 +115,15 @@ pharetra viverra fermentum.
 \noindent
 {\bf After Cycle 2 GO Deadline (post-September 2019):} 
 Continue to provide regular (every 6 months) major version update.
-Nullam eget faucibus lectus. Donec vitae eros sapien, et faucibus
-ligula. Aenean pharetra viverra fermentum.
-
-
-%\begin{itemize}
-%\item dddd
-%\end{itemize}
-
 
 \section*{Co-Investigators and Delivery of Science-Enabling Products.}
-Everyone named on this proposal is part of the ``core team''. 
-%Co-Investigators, together with the PI (and any Co-PIs) comprise a core team with the responsibility of developing and delivering science-enabling products as described in the proposal, as well as carrying out selected key aspects of the science investigations.  A Co-I must have a well-defined, and generally sustained, continuing role in team activities, serve under the direction of the PI, or co-PI(s). Co-investigators may or may not receiving funding, pending eligibility, through the DD ERS program. 
-%\medskip \medskip \noindent
-%\smallskip \smallskip
-%\noindent%
-%Our Science-Enabling Products team consists of five main parts::
-%\begin{itemize}
- %   \item ``Core Coders''; 
-  %  \item Website and \href{http://miri-mrs.readthedocs.io/en/latest/}{{\tt ReadTheDocs}} Writers; 
-   % \item Observational Follow-up; 
-   % \item Senior members of staff, able to supply students/ ask for funding; 
-   % \item A small steering committee. 
-%\end{itemize}
-%
-%
-%\smallskip
-%\smallskip
-%\noindent
-A bibliography and SEP tasks of our team can be found \href{https://github.com/d80b2t/JWST_ERS/blob/master/Proposal/CoI_bios.tex}{here} and the SEP Deliverables are \href{https://github.com/d80b2t/JWST_ERS/tree/master/Deliverables}{\tt here}. 
+\vspace{-6pt}
+Everyone named on this proposal is part of the ``core team''.  A
+bibliography and SEP tasks of our team can be found
+\href{https://github.com/d80b2t/JWST_ERS/blob/master/Proposal/CoI_bios.tex}{here}
+and the SEP Deliverables are
+\href{https://github.com/d80b2t/JWST_ERS/tree/master/Deliverables}{\tt
+here}.
 
 %\input{CoI_bios.tex}
 

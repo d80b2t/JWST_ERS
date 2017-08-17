@@ -43,8 +43,13 @@ eleven_four = ascii.read(path+'SNR_vs_wavelength_2102sec_11Gr04Ints.dat')
 ##
 ##  P l o t t i n g    t h i n g s    u p...
 ##
-plt.rcParams.update({'font.size': 18})
+plt.rcParams.update({'font.size': 20})
 fig, ax = plt.subplots(figsize=(16, 7))
+
+ax = plt.gca()
+ax.get_xaxis().set_tick_params(which='both', direction='in')
+ax.get_yaxis().set_tick_params(which='both', direction='in')
+
 
 '''
 plt.plot(twenty_three['Wavelength'], twenty_three['snr'], linestyle='solid', linewidth=4)
@@ -80,11 +85,10 @@ plt.plot(eleven_four['Wavelength'], eleven_four['snr'], linestyle='dotted', line
 
 plt.plot(ten_three['Wavelength'], ten_three['snr'], linestyle='dashdot', linewidth=4)
 
-plt.legend(['4300sec_15Gr06Ints', '2866sec_20Gr03Ints', '2866sec_10Gr06Ints', '2150sec_45Gr01Ints', 
-            '2150sec_15Gr03Ints', '2102sec_22Gr02Ints',  '2102sec_11Gr04Ints', '1433sec_10Gr03Ints'], 
+plt.legend(['4300sec  15Gr06Ints', '2866sec  20Gr03Ints', '2866sec  10Gr06Ints', '2150sec  45Gr01Ints', 
+            '2150sec  15Gr03Ints', '2102sec  22Gr02Ints', '2102sec  11Gr04Ints', '1433sec  10Gr03Ints'], 
            loc="upper right", ncol=1, shadow=True, fancybox=True,
            fontsize=20, frameon=True)
-
 
 
 

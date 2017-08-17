@@ -52,10 +52,9 @@ ax.get_yaxis().set_tick_params(which='both', direction='in')
 #plt.plot(wavelength, most_lum+8, linestyle='dashdot', linewidth=4)
 
 #plt.plot(wavelength, total, linestyle='solid', linewidth=4, color='b')
-plt.plot(wavelength, least_lum*2.6, linestyle='solid', linewidth=2)
-plt.plot(wavelength, medium_lum*2.2, linestyle='dotted', linewidth=2)
-plt.plot(wavelength, most_lum*1.25, linestyle='dashed', linewidth=2)
-
+plt.plot(wavelength, least_lum*2.6, linestyle='solid', linewidth=4)
+plt.plot(wavelength, medium_lum*2.2, linestyle='dotted', linewidth=4)
+plt.plot(wavelength, most_lum*1.25, linestyle='dashed', linewidth=4)
 #plt.legend(['log(L_{5.6 $\mu$m}) < 43 erg s^{−1}',
  #           '43.6 < log(L_{5.6 $\mu$m}) < 44.7',
   #          '44.8 < log(L_{5.6 $\mu$m}) < 46.1'], 

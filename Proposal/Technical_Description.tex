@@ -48,8 +48,8 @@ given in Table~\ref{tab:targets}.
   &&&& \\
   REW \civ                                 & 209$\pm$6          & 225$\pm$3          &153$\pm$5           &  256$\pm$5\\  
   \civ\ FWHM km s$^{-1}$          & 2863$\pm$65       & 4787$\pm$52       & 4280$\pm$112   & 3989$\pm$62 \\ 
-  \oiii\ FWHM erg s$^{-1}$       & 2811                      & 4971                     & 3057                    & 2625 \\ %% From Zam16
-  % \oiii FWHM erg s$^{-1}$ & ---                        & 5627                  & 3057                   & 2625 \\ %% From AlexandroffThesis
+  \oiii\ FWHM km s$^{-1}$       & 2811                      & 4971                     & 3057                    & 2625 \\ %% From Zam16
+  % \oiii FWHM erg(??) s$^{-1}$ & ---                        & 5627                  & 3057                   & 2625 \\ %% From AlexandroffThesis
   &&&& \\
   ALMA  Band 6                  & {\it pending}                        & $\surd$                & {\it pending}                    & $\surd$  \\
   {\it HST} Cycle 24  ACS+WFC3  %       & {\footnotesize ACS/WFC3} &{\footnotesize ACS/WFC3}    & {\footnotesize ACS/WFC3}    & {\footnotesize ACS/WFC3} \\
@@ -74,8 +74,8 @@ al. (2016) and Hamann et al. (2017).
 \end{table}
 
 %%\section*{MIRI MRS Observing Details}
-%\vspace{-8pt}
-\smallskip \smallskip
+\vspace{-8pt}
+%\smallskip \smallskip
 \noindent
 For our MIRI MRS operations we shall: 
 \begin{itemize}
@@ -113,7 +113,8 @@ desire that has been imparted on us by STScI operations.
     \vspace{-20pt}
     \caption{ETC calculations of MIRI MRS SNR values for a range of Group
       sizes, Integrations and the associated Science exposure time (per
-      Wavelength disperser).  This exposure time 
+      Wavelength disperser). The SNR is from the ETC and is per pixel. 
+      This exposure time 
       has to be multiplied by 24 to get the full Science Exposure time:   
       (a factor of 2 from the 2point in the ETC to 4-point dither; 
       a factor of 3 since for all three SHORT, MEDIUM and LONG modes and 

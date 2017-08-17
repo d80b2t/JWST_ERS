@@ -23,11 +23,6 @@ ubiquitous is vital to the understanding of galaxy formation and
 evolution, and significant observational and theoretical effort has
 been invested in trying to measure and understand the physics involved
 in these systems.  
-%The two main energy sources available to a galaxy
-%are nuclear fusion in stars and gravitational accretion onto compact
-%objects, and we still do not fully understand the interaction of an
-%active galactic nuclei and the star formation properties of their host
-%galaxies.
 
 \smallskip \smallskip
 \noindent
@@ -70,16 +65,13 @@ $0.28 < z < 4.36$.
 \noindent
 Hamann et al. (2017) refined the selection of the ERQs, homing the
 definition based on additional analysis and common properties, and
-found several more objects in this new scheme;  
-a core sample of 97 ERQs with nearly uniform
-peculiar properties selected via \imw\ $\ge 4.6$ (AB) and REW(\civ )
-$\ge$ 100 \AA\ at redshifts 2.0--3.4.  
-%% \smallskip \smallskip
-%% \noindent
-The core ERQs have median luminosity $\left<\log L ({\rm
-ergs/s})\right> \sim 47.1$, sky density 0.010 deg$^{-2}$, surprisingly
-flat/blue UV spectra given their red UV-to-mid-IR colors, and common
-outflow signatures including BALs or BAL-like features and large \civ\
+found several more objects in this new scheme; a core sample of 97
+ERQs with nearly uniform peculiar properties selected via \imw\ $\ge
+4.6$ (AB) and REW(\civ ) $\ge$ 100 \AA\ at redshifts 2.0--3.4.  The
+core ERQs have median luminosity $\left<\log L ({\rm ergs/s})\right>
+\sim 47.1$, sky density 0.010 deg$^{-2}$, surprisingly flat/blue UV
+spectra given their red UV-to-mid-IR colors, and common outflow
+signatures including BALs or BAL-like features and large \civ\
 emission-line blueshifts.  They have a suite of peculiar emission-line
 properties including large rest equivalent widths (REWs), unusual
 ``wingless'' line profiles, large \nv /\lya , \nv /\civ , \siiv /\civ\
@@ -160,13 +152,29 @@ extreme outflow is affecting the entire host galaxy of the quasar.
 %% [OIV] 26μm
 
 
+\begin{SCfigure}
+  \centering
+    \includegraphics[height=7.0cm,width=7.0cm]{../Figures/Hill2014_IRspectra_Lrange_v1}
+\caption{Example spectra, using the {\it Spitzer} IRS data of Hill et al
+  2014. These are composites of 61 quasars each, in the luminosity
+  ranges log $L_{5.6}$ =41.0-43.6, 43.6-44.7, and 44.8-46.1. Note, these
+  templates are low-resolution and dont cover $\lambda<5\mu$m. With
+  Spitzer, summing composites was necessary to see the spectral
+  features; with JWST MIRI we will be able to see these features in
+  individual AGN. Our null hypothesis is that all the dominant emission
+  mechaism is from the AGN, but this has never been tested at this
+  redshift and IR luminosity.}
+  \label{fig:eg_spectra}
+\end{SCfigure}
+
+
 \smallskip
 \smallskip
 \noindent
 {\bf \underline{MIR spectroscopy and PAHs}:}
 Polycyclic Aromatic Hydrocarbons (PAHs) are abundant, ubiquitous, and
-a dominant force in the interstellar medium of galaxies (see e.g., for
-a review).  Aromatic features are already a significant component of
+dominate the structure and evolution of the ISM of galaxies, 
+Aromatic features are already a significant component of
 dusty galaxy spectra as early as $z\approx2$.  and the infrared (IR)
 emission features at 3.3, 6.2, 7.7, 8.6, and 11.3 $\mu$m are generally
 attributed to IR fluorescence from (mainly) far-ultraviolet (FUV)
@@ -176,10 +184,13 @@ interstellar IR emission spectrum is incredibly rich and shows a
 wealth of detail. {It is dominated by major PAH emission features at
 3.3, 6.2, 7.7 and 8.6 $\mu$m.  In addition, there are weaker features
 at 3.4, 3.5, 5.25, 5.75, 6.0, 6.9 and 7.5$\mu$m. {\it Given the
-redshift of our ERQs and the MIRI wavelength coverage we will coverage
+redshift of our ERQs and the MIRI wavelength coverage we will cover
 $1.36 \leq \lambda_{\rm emitted} \leq 8.6 \mu$m.}  In theory, we can
 detect the 3$\mu$m and 6.0$\mu$m water-ice feature, and figure out
-{\it where} it is most prevalent in the quasar.
+{\it where} it is most prevalent in the quasar. Figure~\ref{fig:eg_spectra} shows the
+the current best quasar MIR composites with $\approx$60 quasars per bin. 
+We will have equivalent SNR from 1 quasar, across a broader wavelength range
+and in a new redshift-luminosity regime. 
 
 \smallskip
 \smallskip
@@ -213,9 +224,9 @@ allows us to investigate the {\it spatial information} associated with
 the high IR fluxes in the ERQs. The spatial distribution of the IR
 will give direct clues to the power source of the IR emission.  The
 IFU aspect of the Medium Resolution Spectrometer will allow
-unprecendet detailed investigations of the both the central AGN IR
+unprecedented detailed investigations of the both the central AGN IR
 emission and any potentially extended emission in $z\approx2.5$
-quasars.  As a null hyopthesis, we suggest that weak PAH emission will
+quasars.  As a null hypothesis, we suggest that weak PAH emission will
 be in the nuclear regions and strong(er) PAH emission in the extended
 source. However, very recent studies with H$\alpha$ of $z\sim2$
 quasars suggest that narrow H$\alpha$ emission might be from a
@@ -225,9 +236,9 @@ spatially unresolved source.
 \noindent 
 Our final primary science goal will be to examine the IR spectral
 emission lines (PAH or high ionization) and place them in context with
-the host galaxy by looking for emisson line offsets or extreme blends.
+the host galaxy by looking for emisson line offsets or blends.
 The kinematics of the \oiii\ $\lambda \lambda$4959,5007 \AA\ emission
-lines are {\it known to extreme} in these objects, being very broad
+lines are {\it known to be extreme} in these objects, being very broad
 (FWHM=2600-5000 km s$^{-1}$) and strongly blueshifted (by up to 1500
 km s$^{-1}$; Figure 2, {\it right}). We also know that the \oiii\
 kinematics are positively correlated with infrared luminosity.  Can we
@@ -243,50 +254,6 @@ at $z\sim2.5$ a major challenge, goal and SEP will be to deliver
 software and analyses that samples the data on a sub-pixel scale.}
 
 
-
-%%\normalsize (default) \small \footnotesize \scriptsize \tiny
-\footnotesize
-\section*{Bibliography}
-\vspace{-8pt}
-Alaghband-Zadeh et al., 2016, MNRAS, 459, 999 $\bullet$
-Alexander et al. 2005, Nature, 434, 738  $\bullet$
-Alexander et al., 2008, AJ, 135, 1968	 $\bullet$
-Alexander et al., 2010, MNRAS, 402, 2211 $\bullet$
-Banerji et al., 2015, MNRAS, 447, 3368 $\bullet$
-Banerji et al., 2017, MNRAS, 465, 4390 $\bullet$
-Armus et al., 2007, ApJ, 656, 148 $\bullet$
-Fabian, 2012, ARAA 50, 455 $\bullet$ 
-Cano-Diaz et al., 2012, A\&A, 537, L8 $\bullet$  
-Coppin et al., 2004, MNRAS, 354, 193 $\bullet$
-Coppin et al., 2008, MNRAS, 389, 45 $\bullet$
-Coppin et al., 2010, ApJ, 713, 503 $\bullet$
-Cresci et al., 2015, ApJ, 799, 82 $\bullet$
-Daddi et al., 2007, ApJ, 670, 173	$\bullet$
-Fu et al., 2010, ApJ, 722, 653 	$\bullet$
-Glikman et al., 2015, ApJ, 806, 218 $\bullet$
-Hamann et al., 2017, MNRAS, 464, 3431 $\bullet$
-Hernan-Caballero \& Hatziminaoglou, 2011, MNRAS, 414, 500	$\bullet$
-Higdon et al., 2004, PASP, 116, 975 $\bullet$
-Kormendy \& Ho, 2013, ARAA, 51, 511 $\bullet$
-Heckman \& Best, 2014, ARAA, 52, 589  $\bullet$
-Mampaso, Prieto \& Sánchez, Infrared Astronomy, 2004, ISBN  9780521548106 $\bullet$
-Mullaney et al., 2011, MNRAS, 414, 1082  $\bullet$
-Mullaney et al., 2012, MNRAS, 419, 95 $\bullet$
-Peeters et al, 2004, ApJ, 613, 986 $\bullet$
-Pope et al. 2008, ApJ, 675, 1171 $\bullet$
-Ross et al., 2013, ApJ, 773, 14 $\bullet$
-Ross et al., 2015, MNRAS, 453, 3932 $\bullet$
-Sajina et al., 2007, ApJ, 664, 713 $\bullet$
-Sajina et al., 2009, ApJ, 703, 270 $\bullet$
-Spoon et al., 2007, ApJ, 654, L49 $\bullet$
-Tielens, 2008, ARAA, 46, 289  $\bullet$
-Veilleux et al., 2009, arXiv:0201118v1 $\bullet$
-Yan et al., 2005, ApJ, 628, 604 $\bullet$
-Yan et al, 2007, ApJ, 658, 778 $\bullet$
-Yuan \& Narayan, 2014, ARAA, 52, 529 $\bullet$
-Zakamska et al., 2016, MNRAS, 459, 3144 
-
-\normalsize
 \medskip \medskip \medskip \medskip
 %\clearpage
 

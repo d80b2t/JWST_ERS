@@ -1,5 +1,6 @@
 \section*{Summary of DD-ERS Data Products}
 %Examples
+\vspace{-4pt}
 Our primary SEP task and goal is to produce a Python package that
 quickly manipulates and analyzes the full MRS Level 3 data, in
 particular the MRS Spectral Cubes and 1D spectra.  We will take the
@@ -23,9 +24,6 @@ community informed and updated with our SEPs. GitHub {\it has code
 versioning automatically built-in} so proper referencing of
 e.g. technical notes is straight-forward.
 
-%% 8.225 kpc/".
-%% 3.5 × 3.5 arcsec field
-
 \section*{Code Repositories and Documentation}
 \vspace{-8pt}
 We are already ensuring open access to representative data sets,
@@ -45,27 +43,44 @@ of both Cycle 1 and Cycle 2 proposals.  The key links are::
 \href{http://miri-mrs.readthedocs.io/en/latest/}{{\tt miri-mrs.readthedocs.io}} (the global documentation)\\
 
 
+\section*{Sub-kiloparsec resolution at High-redshift}
+\vspace{-6pt}
+%\smallskip \smallskip
+%\noindent
+If the PAH emission from the ERQs is dominated by dusty non-nuclear
+star formation then we may expect it to be spatially resolved on the
+scale of any star-forming disk present. Typical galaxy discs at $z=2.5$
+have half-light radii of $3-5$kpc. The pixel scale of the MRS is 0.2-0.3''  
+with a spatial FWHM of 0.5'' (4kpc) and 0.8'' (6.4kpc) for the 3.3 and 6.2$\mu$m lines
+respectively, when redshifted to $z=2.5$ (with the 4-point dither
+pattern employed). These specifications and relative sizes are very
+similar to those of the KMOS NIR IFU instrument on the VLT (0.2’’
+pixel scale, median Paranal seeing 0.7’’). Our team has extensive
+experience of analysing star forming galaxies at $z=1-2$ with KMOS
+(i.e. the KROSS survey, P.I. Stott) and are
+therefore ideally placed to use that expertise to create post-pipeline
+IFU analysis tools directly analogous to those used in the KROSS
+survey. These will produce spatially resolved maps of PAH line
+strengths and velocities using the wavelength information to subsample
+the spatial PSF. In this way we can probe the spatial competition
+between the influence of star formation and the central AGN.
+
 \section*{MIRISim}
 \vspace{-6pt}
-MIRI data simulations (at ESA) include an Integral Field observation
-with the Medium Resolution Spectrograph (MRS), a Low Resolution
-Spectrograph (LRS) observation, and an imaging observation. (Credit:
-ESA, Pamela Klaassen and the MIRISim Team).
-%%
-{\bf MIRISim does not produce final, calibrated data. 
-MIRISim produces stuff that looks like it has come off of MIRI.}
+\href{http://www.miricle.org/MIRICLE2/devel/doc/mirisim/User_Guide/index.html}
+{\tt MIRSim}, is a MIRI data simulations which includes an Integral
+Field observations with the Medium Resolution Spectrograph (P.I., P. Klaassen, 
+University of Edinburgh).  MIRISim does not
+produce final, calibrated data, instead it produces data equivalent to
+that straight from MIRI. We will initially concentrate on the Level 3
+data cubts, and MIRISim will be a superb input for pre-Launch tests
+and developement of the ERS ERQ SEPs that we want to develop.  {\it
+Given the pixel scales of the MRS IFU, and the fact that 1'' is
+$\approx$8 kpc at $z\sim2.5$ a major goal of our SEPs will be to
+deliver software and analyses that samples the data on a sub-pixel,
+sub-kiloparsec scale.  MIRISim and our team's recent VLT/KMOS
+expertise will acomplish this.}
 
-
-
-\iffalse
-\section{Useful links}
-http://astroconda.readthedocs.io/en/latest/ \\
-https://www.cosmos.esa.int/web/jwst/simulations\\
-https://confluence.stsci.edu/display/JWSTDADF/JWST+Data+Analysis+Development+Forum\\
-https://jwst.stsci.edu/science-planning/data-analysis-toolbox\\
-https://www.youtube.com/watch?v=A024z9CITZs\\
-https://jwst.stsci.edu/science-planning/proposal-planning-toolbox/simulated-data\\
-\fi
 
 
 \section*{Delivery Schedule for Science-Enabling Products.} 
@@ -80,41 +95,34 @@ Our major milestones are::
 \smallskip
 \smallskip
 \noindent
-{\bf Before Cycle 1 GO Proposal Deadline (end Feb 2018):} 
-Delivery of the first set (‘beta’) of MIRI MRS SEPs before the Cycle 1 GO Deadline (March 2018). 
-Proin non tempus velit. Etiam laoreet, enim nec scelerisque dictum, tortor massa tempor enim, id pretium justo quam ac lectus. Maecenas diam nibh, interdum at lobortis sit amet, dignissim et quam. 
+{\bf Before Cycle 1 GO Proposal Deadline (end Feb 2018):}\\ 
+Delivery of the first set (‘beta’) of MIRI MRS SEPs before the Cycle 1 GO Deadline.
 
 \smallskip
 \smallskip
 \noindent
- {\bf Prior to Launch (March 2018 - October 2018):} 
+ {\bf Prior to Launch (March 2018 - October 2018):}\\ 
 The release of our v1.0.0, with MIRSim mock data. 
-Sed tincidunt faucibus risus, congue tempus nisl consectetur eget. Suspendisse venenatis turpis ut risus aliquam interdum. In at velit sed ligula dictum dignissim ut et dui. Curabitur ac scelerisque purus.
 
 \smallskip
 \smallskip
 \noindent
-{\bf Commissioning (November 2018-April 2019):} 
+{\bf Commissioning (November 2018-April 2019):}\\ 
 Ramp-up of the Postdoctoral Fellows. 
-Donec elit tortor, scelerisque ac molestie id, hendrerit sit amet
-ipsum. Maecenas non tempus sem. Pellentesque ut enim velit, eu
-sagittis elit. Nulla in elementum erat.
 
 \smallskip
 \smallskip
 \noindent
-{\bf ERS/Cycle 1 (April 2019-September 2019):} 
+{\bf ERS/Cycle 1 (April 2019-September 2019):}\\ 
 Rapid version updates once the start of science operations commences
-in April 2019.  In dictum arcu at nisi porttitor commodo. Donec felis
-felis, elementum sit amet ultrices ac, interdum nec ante. Nullam eget
-faucibus lectus. Donec vitae eros sapien, et faucibus ligula. Aenean
-pharetra viverra fermentum.
+in April 2019.  
 
 \smallskip
 \smallskip
 \noindent
-{\bf After Cycle 2 GO Deadline (post-September 2019):} 
+{\bf After Cycle 2 GO Deadline (post-September 2019):}\\ 
 Continue to provide regular (every 6 months) major version update.
+
 
 \section*{Co-Investigators and Delivery of Science-Enabling Products.}
 \vspace{-6pt}

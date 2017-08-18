@@ -4,12 +4,14 @@
 <!-- ********************************************************************************************************************** -->
 <JwstProposal schemaVersion="39" APTVersion="Version 25.2.3 " xmlns="http://www.stsci.edu/JWST/APT" xmlns:mmrscge="http://www.stsci.edu/JWST/APT/Template/MiriMRSCrossGratingEngineering" xmlns:nsmsasd="http://www.stsci.edu/JWST/APT/Template/NirspecMSAShortDetect" xmlns:nid="http://www.stsci.edu/JWST/APT/Template/NirissDark" xmlns:ncipri="http://www.stsci.edu/JWST/APT/Template/NircamIprImaging" xmlns:nif="http://www.stsci.edu/JWST/APT/Template/NirissFocus" xmlns:wfscfp="http://www.stsci.edu/JWST/APT/Template/WfscFinePhasing" xmlns:nii="http://www.stsci.edu/JWST/APT/Template/NirissImaging" xmlns:mmimf="http://www.stsci.edu/JWST/APT/Template/MiriMimf" xmlns:mlrs="http://www.stsci.edu/JWST/APT/Template/MiriLRS" xmlns:mc="http://www.stsci.edu/JWST/APT/Template/MiriCoron" xmlns:md="http://www.stsci.edu/JWST/APT/Template/MiriDark" xmlns:nsfgwt="http://www.stsci.edu/JWST/APT/Template/NirspecFilterGratingWheelTest" xmlns:wfscga="http://www.stsci.edu/JWST/APT/Template/WfscGlobalAlignment" xmlns:nsil="http://www.stsci.edu/JWST/APT/Template/NirspecInternalLamp" xmlns:idfu="http://www.stsci.edu/JWST/APT/Template/IsimDictionaryFileUpdate" xmlns:mi="http://www.stsci.edu/JWST/APT/Template/MiriImaging" xmlns:nsimg="http://www.stsci.edu/JWST/APT/Template/NirspecImaging" xmlns:niami="http://www.stsci.edu/JWST/APT/Template/NirissAmi" xmlns:niwfss="http://www.stsci.edu/JWST/APT/Template/NirissWfss" xmlns:ncif="http://www.stsci.edu/JWST/APT/Template/NircamInternalFlat" xmlns:nsfss="http://www.stsci.edu/JWST/APT/Template/NirspecFixedSlitSpectroscopy" xmlns:fgsif="http://www.stsci.edu/JWST/APT/Template/FgsInternalFlat" xmlns:ncef="http://www.stsci.edu/JWST/APT/Template/NircamExternalFlat" xmlns:ncei="http://www.stsci.edu/JWST/APT/Template/NircamEngineeringImaging" xmlns:niec="http://www.stsci.edu/JWST/APT/Template/NirissExternalCalibration" xmlns:nsmsam="http://www.stsci.edu/JWST/APT/Template/NirspecMSAMasking" xmlns:niif="http://www.stsci.edu/JWST/APT/Template/NirissInternalFlat" xmlns:ncpili="http://www.stsci.edu/JWST/APT/Template/NircamPilImaging" xmlns:nsmsaa="http://www.stsci.edu/JWST/APT/Template/NirspecMSAAnneal" xmlns:mcpc="http://www.stsci.edu/JWST/APT/Template/MiriCpc" xmlns:fgsec="http://www.stsci.edu/JWST/APT/Template/FgsExternalCalibration" xmlns:nsd="http://www.stsci.edu/JWST/APT/Template/NirspecDark" xmlns:nsf="http://www.stsci.edu/JWST/APT/Template/NirspecFocus" xmlns:ns="http://www.stsci.edu/JWST/APT/Instrument/Nirspec" xmlns:nisoss="http://www.stsci.edu/JWST/APT/Template/NirissSoss" xmlns:nsmimf="http://www.stsci.edu/JWST/APT/Template/NirspecMimf" xmlns:ncts="http://www.stsci.edu/JWST/APT/Template/NircamTimeSeries" xmlns:ncd="http://www.stsci.edu/JWST/APT/Template/NircamDark" xmlns:mef="http://www.stsci.edu/JWST/APT/Template/MiriExternalFlat" xmlns:ncc="http://www.stsci.edu/JWST/APT/Template/NircamCoron" xmlns:ncf="http://www.stsci.edu/JWST/APT/Template/NircamFocus" xmlns:mmrs="http://www.stsci.edu/JWST/APT/Template/MiriMRS" xmlns:nci="http://www.stsci.edu/JWST/APT/Template/NircamImaging" xmlns:sk="http://www.stsci.edu/JWST/APT/Template/StationKeeping" xmlns:wfscc="http://www.stsci.edu/JWST/APT/Template/WfscCommissioning" xmlns:iat="http://www.stsci.edu/JWST/APT/Template/IsimAsicTuning" xmlns:sr="http://www.stsci.edu/JWST/APT/Template/SafeModeRecovery" xmlns:rtc="http://www.stsci.edu/JWST/APT/Template/RealtimeCommanding" xmlns:nsfr="http://www.stsci.edu/JWST/APT/Template/NirspecFocusReference" xmlns:ncw="http://www.stsci.edu/JWST/APT/Template/NircamWheelExercise" xmlns:nsbots="http://www.stsci.edu/JWST/APT/Template/NirspecBrightObjectTimeSeries" xmlns:mann="http://www.stsci.edu/JWST/APT/Template/MiriAnneal" xmlns:nsmos="http://www.stsci.edu/JWST/APT/Template/NirspecMOS" xmlns:ncgts="http://www.stsci.edu/JWST/APT/Template/NircamGrismTimeSeries" xmlns:wfsccp="http://www.stsci.edu/JWST/APT/Template/WfscCoarsePhasing" xmlns:msa="http://www.stsci.edu/JWST/APT/Template/NirspecMSA" xmlns:nsifus="http://www.stsci.edu/JWST/APT/Template/NirspecIFUSpectroscopy" xmlns:ncwfss="http://www.stsci.edu/JWST/APT/Template/NircamWfss" xmlns:nifs="http://www.stsci.edu/JWST/APT/Template/NirissFlatSuite" xmlns:fgsf="http://www.stsci.edu/JWST/APT/Template/FgsFocus">
     <ProposalInformation>
-        <ProposalPhase>Draft</ProposalPhase>
-        <Title>Revolutionary Quasar Physics with the JWST and MIRI</Title>
-        <Abstract>Over 50 years after their formal identification, and over two decades since the calculation of their space density evolution, several fundamental facts remain unknown for high-luminosity AGN, i.e. quasars: What is the main AGN triggering mechanism at the height of quasar activity at redshifts z=2-3? What is the direct, observational evidence in individual objects, that links AGN activity to star formation? Can we observe ``AGN feedback'' in action, in situ for the most luminous sources at their peak activity? These remain the outstanding observational extragalactic questions of
-our time. And they will be answered with the launch of the James Webb Space Telescope. 
+        <ProposalPhase>Submitted</ProposalPhase>
+        <Title>Quasar Physics with the JWST and MIRI MRS</Title>
+        <Abstract>Our Directors Discretionary time for an Early Release Science (DD-ERS) program will help the community learn about the longest wavelength spectrograph on the James Webb Space Telescope (JWST), the Mid-Infrared Instrument (MIRI) Medium-resolution spectrometer (MRS). We will release a suite of science-enabling products (SEPs) via a public data analysis and code repository that we have already begun to build: github.com/miri-mrs. The accompanying documentation is also already being written: miri-mrs.readthedocs.io. Our primary SEP goal is to produce a Python package that quickly manipulates and analyzes the full MRS Level 3 data, in particular the MRS Spectral Cubes and 1D spectra.
 
-We propose the perfect Director’s Discretionary Early Release Science (DD ERS) program. We have identified a population of infrared (20-30$\mu$m observed) bright quasars at the peak of cosmological quasar activity, z~2.5. Their global star-formation properites are currently unknown, but observations with JWST MIRI, in particular MRS spectroscopy, will quantify the level of star-formation in these objects. Moreover, the IFU aspect of the Medium Resolution Spectrometer will allow, for the first time, detailed investigations of the both the central AGN IR emission and potentially extended emission.</Abstract>
+To do this we will observe a set of mid-infrared bright quasars at the peak of cosmological quasar activity, z~2.5. Their global star-formation properties are currently unknown, but spectroscopy with JWST MIRI MRS will quantify the level of star-formation in these objects. These observations will address a major and still open extragalactic astrophysical question: what are the star-formation properties of mid-infrared luminous quasars at the peak of quasar activity? Moreover, the IFU aspect of the MRS will enable investigations of unprecedented detail of both the central AGN IR emission and any potentially extended emission. This novel observation has the capacity to link sites of star-formation to AGN activity and provide direct observational evidence for AGN feedback at high-z and high luminosities. 
+
+Our  NoI was #87. This proposal, and the accompanying code, calculations and documentation can be found at: github.com/d80b2t.</Abstract>
+        <ProposalID>1315</ProposalID>
         <StsciEditNumber>0</StsciEditNumber>
         <ProposalCategory>
             <ERS/>
@@ -24,8 +26,19 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
         <ScienceKeyword>Winds and Outflows</ScienceKeyword>
         <Cycle>1</Cycle>
         <NoSimilarSubmissions>false</NoSimilarSubmissions>
-        <PdfAttachment>/cos_pc19a_npr/LaTeX/proposals/JWST/JWST_ERS/Proposal/JWST_DD-ERS.pdf</PdfAttachment>
-        <ObservingDescription>MIRI observations, in all modes, of a very select number of interesting quasars.</ObservingDescription>
+        <PdfAttachment>/cos_pc19a_npr/LaTeX/proposals/JWST/JWST_ERS/Proposal/JWST_DD-ERS_wBudget.pdf</PdfAttachment>
+        <ObservingDescription>We propose to use MIRI MRS to observe four IR-bright quasars across the full MRS wavelength range. We will deliver to the community Science Enabling Products (SEPs) that will enable the accumulation, reduction and timely analysis of MRS data, focusing on extra-galactic science.
+
+The four quasars are all well detected in the WISE W3 (7.5-17um) and W4 (20-28um) bands. They were selected via their optical-to-IR color, initially via the r-W4 color, refined to an i-W3 color selection and are in the SDSS/BOSS quasar catalogs. As such, they have come to be known as ``Extremely Red Quasars'' (ERQs).
+
+We will observe four of these Extremely Red Quasars (ERQs) with the MIRI Medium Resolution Spectrometer. All our targets are within 10 degrees of the Celestial Equator; 3 out of our 4 targets are within 2 degrees. Our targets are at approximately 08h30m, 12h30m, 22h15m and 23h25min, in Right Ascension. We will observe each target for 19973 seconds in total, 12912 seconds of which are Science exposure. We will cover the full wavelength range, 4.9-28.8um, by observing in the SHORT, MEDIUM and LONG modes.
+
+Taking advantage of the PI's host institution, and with continuing consultation with the MIRI team, as well as acknowledging the rationale of the ERS in general, we have decided to focus on one instrument, and one particular mode of that instrument, and make certain that we deliver to the community the highest quality data tools, observational preparation instructions and science enabling products (SEPs). 
+
+Our major documentation and notes are kept at::
+    github.com/d80b2t/JWST_ERS
+with our Observing notes kept at::
+    github.com/d80b2t/JWST_ERS/tree/master/ETC_calcs</ObservingDescription>
         <PrincipalInvestigator>
             <InvestigatorAddress>
                 <UniqueID>9093</UniqueID>
@@ -60,6 +73,340 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
             </InvestigatorAddress>
             <AdminUSPI>false</AdminUSPI>
             <Contact>true</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>23</UniqueID>
+                <Country>GBR</Country>
+                <EMail>d.m.alexander@durham.ac.uk</EMail>
+                <Institution>Durham Univ.</Institution>
+                <USState>England</USState>
+                <ESAMember>true</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>David</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Alexander</LastName>
+                <MiddleInitial>M.</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>12658</UniqueID>
+                <Country>USA</Country>
+                <EMail>rmalexan@pha.jhu.edu</EMail>
+                <Institution>The Johns Hopkins University</Institution>
+                <USState>MD</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Rachael</FirstName>
+                <Honorific>Ms.</Honorific>
+                <LastName>Alexandroff</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>13498</UniqueID>
+                <Country>GBR</Country>
+                <EMail>mbanerji@ast.cam.ac.uk</EMail>
+                <Institution>University of Cambridge</Institution>
+                <USState>England</USState>
+                <ESAMember>true</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Manda</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Banerji</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>4563</UniqueID>
+                <Country>USA</Country>
+                <EMail>niel@astro.psu.edu</EMail>
+                <Institution>The Pennsylvania State University</Institution>
+                <USState>PA</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>William</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Brandt</LastName>
+                <MiddleInitial>Nielsen</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>5750</UniqueID>
+                <Country>USA</Country>
+                <EMail>fan@as.arizona.edu</EMail>
+                <Institution>University of Arizona</Institution>
+                <USState>AZ</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Xiaohui</FirstName>
+                <Honorific>Prof.</Honorific>
+                <LastName>Fan</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>3074</UniqueID>
+                <Country>USA</Country>
+                <EMail>frederick.hamann@ucr.edu</EMail>
+                <Institution>University of California - Riverside</Institution>
+                <USState>CA</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Fred</FirstName>
+                <Honorific>Prof.</Honorific>
+                <LastName>Hamann</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>8862</UniqueID>
+                <Country>USA</Country>
+                <EMail>dale.kocevski@colby.edu</EMail>
+                <Institution>Colby College</Institution>
+                <USState>ME</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Dale</FirstName>
+                <Honorific>Prof.</Honorific>
+                <LastName>Kocevski</LastName>
+                <MiddleInitial>D.</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>17529</UniqueID>
+                <Country>USA</Country>
+                <EMail>stephanie.m.lamassa@nasa.gov</EMail>
+                <Institution>NASA Goddard Space Flight Center</Institution>
+                <USState>MD</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Stephanie</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>LaMassa</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>4119</UniqueID>
+                <Country>GBR</Country>
+                <EMail>a.lawrence@roe.ac.uk</EMail>
+                <Institution>University of Edinburgh, Institute for Astronomy</Institution>
+                <USState>Scotland</USState>
+                <ESAMember>true</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Andy</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Lawrence</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>true</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>17234</UniqueID>
+                <Country>USA</Country>
+                <EMail>chelsea.macleod@cfa.harvard.edu</EMail>
+                <Institution>Smithsonian Institution Astrophysical Observatory</Institution>
+                <USState>MA</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Chelsea</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>MacLeod</LastName>
+                <MiddleInitial>L.</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>13043</UniqueID>
+                <Country>GBR</Country>
+                <EMail>james.r.mullaney@gmail.com</EMail>
+                <Institution>University of Sheffield</Institution>
+                <USState>England</USState>
+                <ESAMember>true</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>James</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Mullaney</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>6867</UniqueID>
+                <Country>USA</Country>
+                <EMail>geordiemyers@gmail.com</EMail>
+                <Institution>University of Wyoming</Institution>
+                <USState>WY</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Adam</FirstName>
+                <Honorific>Prof.</Honorific>
+                <LastName>Myers</LastName>
+                <MiddleInitial>D.</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>13639</UniqueID>
+                <Country>USA</Country>
+                <EMail>runnoejc@umich.edu</EMail>
+                <Institution>University of Michigan</Institution>
+                <USState>MI</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Jessie</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Runnoe</LastName>
+                <MiddleInitial>Caye</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>2298</UniqueID>
+                <Country>USA</Country>
+                <EMail>dps@astro.psu.edu</EMail>
+                <Institution>The Pennsylvania State University</Institution>
+                <USState>PA</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Donald</FirstName>
+                <Honorific>Prof.</Honorific>
+                <LastName>Schneider</LastName>
+                <MiddleInitial>P.</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>12590</UniqueID>
+                <Country>GBR</Country>
+                <EMail>j.p.stott@lancaster.ac.uk</EMail>
+                <Institution>Lancaster University</Institution>
+                <USState>Lancaster</USState>
+                <ESAMember>true</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>John</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Stott</LastName>
+                <MiddleInitial>Philip</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>2502</UniqueID>
+                <Country>USA</Country>
+                <EMail>strauss@astro.princeton.edu</EMail>
+                <Institution>Princeton University</Institution>
+                <USState>NJ</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Michael</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Strauss</LastName>
+                <MiddleInitial>A.</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>13242</UniqueID>
+                <Country>GBR</Country>
+                <EMail>renske.smit@durham.ac.uk</EMail>
+                <Institution>University of Cambridge</Institution>
+                <USState>England</USState>
+                <ESAMember>true</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Renske</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Smit</LastName>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>9082</UniqueID>
+                <Country>USA</Country>
+                <EMail>dwake@unca.edu</EMail>
+                <Institution>University of North Carolina Asheville</Institution>
+                <USState>NC</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>David</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Wake</LastName>
+                <MiddleInitial>A.</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
+        </CoInvestigator>
+        <CoInvestigator>
+            <InvestigatorAddress>
+                <UniqueID>6732</UniqueID>
+                <Country>USA</Country>
+                <EMail>zakamska@jhu.edu</EMail>
+                <Institution>The Johns Hopkins University</Institution>
+                <USState>MD</USState>
+                <ESAMember>false</ESAMember>
+                <CSAMember>false</CSAMember>
+                <FirstName>Nadia</FirstName>
+                <Honorific>Dr.</Honorific>
+                <LastName>Zakamska</LastName>
+                <MiddleInitial>L</MiddleInitial>
+                <Retired>false</Retired>
+            </InvestigatorAddress>
+            <AdminUSPI>false</AdminUSPI>
+            <Contact>false</Contact>
         </CoInvestigator>
     </ProposalInformation>
     <Targets>
@@ -186,6 +533,8 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
     <PureParallelSlots/>
     <DataRequests>
         <ObservationGroup>
+            <Label>MIRI MRS of four Extremely Red Quasars</Label>
+            <Comments>MIRI MRS of four Extremely Red Quasars.</Comments>
             <MsaPlanner SelectedPlanName="">
                 <Catalogs/>
                 <SimplePlanner PlanName="Some Plan" Orient="0.0 Degrees" Theta="C[90.0 Degrees]" SearchAreaCenter="" SearchAreaWidth="" SearchAreaHeight="" Slitlet="THREE_SHUTTER" SlitletPattern="[],[]" SweetSpot="0.02" TimeLimit="" GratingFilter="" ReadoutPattern="" NumberOfGroups="" NumberOfIntegrations="" Autocal="" PrimaryCandidateSet="" FillerCandidateSet="" ShouldNode="false" NumberOfNods="3" BestPointings="5" NumberOfConfigurations="" DitherType="No Dither" SearchStepSize="30.0" ManualPlan="false" UseWeights="false" EnableMonteCarlo="false" MonteCarloShuffles="10" AllowContamination="false" ShutterOffsetMap="">
@@ -227,10 +576,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>45</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>45</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>1</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>1</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>
@@ -283,10 +632,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>15</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>15</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>3</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>3</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>
@@ -339,10 +688,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>45</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>45</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>1</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>1</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>
@@ -395,10 +744,10 @@ We propose the perfect Director’s Discretionary Early Release Science (DD ERS)
                                 <mmrs:Exposures>1</mmrs:Exposures>
                                 <mmrs:Dither>Dither 1</mmrs:Dither>
                                 <mmrs:ReadoutPatternLong>SLOW</mmrs:ReadoutPatternLong>
-                                <mmrs:GroupsLong>20</mmrs:GroupsLong>
-                                <mmrs:GroupsShort>20</mmrs:GroupsShort>
-                                <mmrs:IntegrationsLong>2</mmrs:IntegrationsLong>
-                                <mmrs:IntegrationsShort>2</mmrs:IntegrationsShort>
+                                <mmrs:GroupsLong>15</mmrs:GroupsLong>
+                                <mmrs:GroupsShort>15</mmrs:GroupsShort>
+                                <mmrs:IntegrationsLong>3</mmrs:IntegrationsLong>
+                                <mmrs:IntegrationsShort>3</mmrs:IntegrationsShort>
                             </mmrs:Exposure>
                         </mmrs:ExposureList>
                     </mmrs:MiriMRS>

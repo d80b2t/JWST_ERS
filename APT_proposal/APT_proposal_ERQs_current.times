@@ -1,9 +1,9 @@
 # APT Output Product
 # 
 # APT Version: Version 25.2.3 
-# Date: Thu Aug 03 22:54:13 GMT 2017
+# Date: Thu Aug 17 21:35:25 GMT 2017
 
-JWST Times Report for JWST Draft Proposal (APT_proposal_ERQs_current.aptx)
+JWST Times Report for JWST Submitted Proposal 1315 (APT_proposal_ERQs_current.aptx)
 
 Note: Glossary of terms and column headers at bottom of this report
 
@@ -11,73 +11,73 @@ Note: Glossary of terms and column headers at bottom of this report
 * J0834+0159 (Obs 1)
   Science     Total Time
   Duration    Charged
-     14340         21630
+     12912         19973
 
   Exposure Specifications:
     Exp   SUBARRAY     READOUT       FrameRead Groups NFrame GrpGap   Ints PhotonCollect Diths PrimDiths SecDiths NumExp TotalPhoton ExposureDuration ExposingDuration
     Acq   FULL         FAST              2.775      4      1      0      1        11.100     1         1        1      1      11.100               50               14
-      1   FULL         SLOW             23.890      5      1      0     10      1194.496     4         4        1      1    4777.984             1243             1207
-      2   FULL         SLOW             23.890      5      1      0     10      1194.496     4         4        1      1    4777.984             1243             1207
-      3   FULL         SLOW             23.890      5      1      0     10      1194.496     4         4        1      1    4777.984             1243             1207
+      1   FULL         SLOW             23.890     45      1      0      1      1075.046     4         4        1      1    4300.184             1124             1088
+      2   FULL         SLOW             23.890     45      1      0      1      1075.046     4         4        1      1    4300.184             1124             1088
+      3   FULL         SLOW             23.890     45      1      0      1      1075.046     4         4        1      1    4300.184             1124             1088
 
   Visit Durations:
           Pointing Science  Instrument           (GS     (Targ  (Exp                                   (Visit   Slew  Observatory  Direct Sched  Total Time
     Visit Dist     Duration Overhead    (SAMs)    Acq)    Acq)   Ovhd)  (Mech)   (OSS)   (MSA)  (IRS2)   Ovhd)  Time  Overheads    Overhead      Charged
-        1     0.00    14340       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         2984             0       21630
+        1     0.00    12912       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         2755             0       19973
 
 ========================================
 * J1232+0912 (Obs 2)
   Science     Total Time
   Duration    Charged
-     28668         38250
+     12912         19973
 
   Exposure Specifications:
     Exp   SUBARRAY     READOUT       FrameRead Groups NFrame GrpGap   Ints PhotonCollect Diths PrimDiths SecDiths NumExp TotalPhoton ExposureDuration ExposingDuration
     Acq   FULL         FAST              2.775      4      1      0      1        11.100     1         1        1      1      11.100               50               14
-      1   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
-      2   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
-      3   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
+      1   FULL         SLOW             23.890     15      1      0      3      1075.046     4         4        1      1    4300.184             1124             1088
+      2   FULL         SLOW             23.890     15      1      0      3      1075.046     4         4        1      1    4300.184             1124             1088
+      3   FULL         SLOW             23.890     15      1      0      3      1075.046     4         4        1      1    4300.184             1124             1088
 
   Visit Durations:
           Pointing Science  Instrument           (GS     (Targ  (Exp                                   (Visit   Slew  Observatory  Direct Sched  Total Time
     Visit Dist     Duration Overhead    (SAMs)    Acq)    Acq)   Ovhd)  (Mech)   (OSS)   (MSA)  (IRS2)   Ovhd)  Time  Overheads    Overhead      Charged
-        1     0.00    28668       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         5276             0       38250
+        1     0.00    12912       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         2755             0       19973
 
 ========================================
 * J2215-0056 (Obs 3)
   Science     Total Time
   Duration    Charged
-     28668         38250
+     12912         19973
 
   Exposure Specifications:
     Exp   SUBARRAY     READOUT       FrameRead Groups NFrame GrpGap   Ints PhotonCollect Diths PrimDiths SecDiths NumExp TotalPhoton ExposureDuration ExposingDuration
     Acq   FULL         FAST              2.775      4      1      0      1        11.100     1         1        1      1      11.100               50               14
-      1   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
-      2   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
-      3   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
+      1   FULL         SLOW             23.890     45      1      0      1      1075.046     4         4        1      1    4300.184             1124             1088
+      2   FULL         SLOW             23.890     45      1      0      1      1075.046     4         4        1      1    4300.184             1124             1088
+      3   FULL         SLOW             23.890     45      1      0      1      1075.046     4         4        1      1    4300.184             1124             1088
 
   Visit Durations:
           Pointing Science  Instrument           (GS     (Targ  (Exp                                   (Visit   Slew  Observatory  Direct Sched  Total Time
     Visit Dist     Duration Overhead    (SAMs)    Acq)    Acq)   Ovhd)  (Mech)   (OSS)   (MSA)  (IRS2)   Ovhd)  Time  Overheads    Overhead      Charged
-        1     0.00    28668       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         5276             0       38250
+        1     0.00    12912       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         2755             0       19973
 
 ========================================
 * J2323-0100 (Obs 4)
   Science     Total Time
   Duration    Charged
-     28668         38250
+     12912         19973
 
   Exposure Specifications:
     Exp   SUBARRAY     READOUT       FrameRead Groups NFrame GrpGap   Ints PhotonCollect Diths PrimDiths SecDiths NumExp TotalPhoton ExposureDuration ExposingDuration
     Acq   FULL         FAST              2.775      1      1      0      1         2.775     1         1        1      1       2.775               41                5
-      1   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
-      2   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
-      3   FULL         SLOW             23.890     10      1      0     10      2388.992     4         4        1      1    9555.968             2437             2401
+      1   FULL         SLOW             23.890     15      1      0      3      1075.046     4         4        1      1    4300.184             1124             1088
+      2   FULL         SLOW             23.890     15      1      0      3      1075.046     4         4        1      1    4300.184             1124             1088
+      3   FULL         SLOW             23.890     15      1      0      3      1075.046     4         4        1      1    4300.184             1124             1088
 
   Visit Durations:
           Pointing Science  Instrument           (GS     (Targ  (Exp                                   (Visit   Slew  Observatory  Direct Sched  Total Time
     Visit Dist     Duration Overhead    (SAMs)    Acq)    Acq)   Ovhd)  (Mech)   (OSS)   (MSA)  (IRS2)   Ovhd)  Time  Overheads    Overhead      Charged
-        1     0.00    28668       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         5276             0       38250
+        1     0.00    12912       2506 (  713) (  282) (  600) (  636) (  150) (   75) (    0) (    0) (   50)  1800         2755             0       19973
 
 
 
